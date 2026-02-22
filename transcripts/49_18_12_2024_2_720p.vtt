@@ -1,0 +1,7472 @@
+WEBVTT
+
+00:00.000 --> 00:29.980
+Altyazı M.K.
+
+00:30.000 --> 00:59.980
+Altyazı M.K.
+
+01:00.000 --> 01:29.980
+Altyazı M.K.
+
+01:30.000 --> 01:31.000
+Altyazı M.K.
+
+01:31.000 --> 01:32.000
+Altyazı M.K.
+
+01:32.000 --> 01:34.000
+Altyazı M.K.
+
+01:34.000 --> 01:38.000
+Altyazı M.K.
+
+01:38.000 --> 01:42.000
+Altyazı M.K.
+
+01:42.000 --> 01:42.500
+Arkadaşlar.
+
+01:42.500 --> 01:46.500
+Altyazı M.K.
+
+01:46.500 --> 01:54.500
+Altyazı M.K.
+
+01:54.500 --> 01:58.500
+Altyazı M.K.
+
+01:58.500 --> 01:59.500
+Altyazı M.K.
+
+01:59.500 --> 02:00.500
+Altyazı M.K.
+
+02:00.500 --> 02:01.500
+Altyazı M.K.
+
+02:01.500 --> 02:02.500
+Altyazı M.K.
+
+02:02.500 --> 02:06.500
+Altyazı M.K.
+
+02:06.500 --> 02:08.500
+Altyazı M.K.
+
+02:08.500 --> 02:10.500
+Altyazı M.K.
+
+02:10.500 --> 02:11.500
+Altyazı M.K.
+
+02:11.500 --> 02:12.500
+Altyazı M.K.
+
+02:12.500 --> 02:13.500
+M.K.
+
+02:13.500 --> 02:17.500
+Altyazı M.K.
+
+02:17.500 --> 02:18.500
+Altyazı M.K.
+
+02:18.500 --> 02:19.500
+Altyazı M.K.
+
+02:19.500 --> 02:20.500
+Altyazı M.K.
+
+02:20.500 --> 02:21.500
+Altyazı M.K.
+
+02:21.500 --> 02:22.500
+Altyazı M.K.
+
+02:22.500 --> 02:42.500
+Evet, bir yazı girin, yazı arkadaşlar girilmiş, başka bir şey var, I will stream, tamam.
+
+02:42.500 --> 03:11.820
+String'i tutuyor, ben şöyle de girişi yapayım, scene, getline, string başlık dosyası da ayrı edilmemiş, bazen böyle takılıyor, evet.
+
+03:12.500 --> 03:41.940
+Yerde bir tuhaplık var, neyse oraya geleceğim, soru şu, yazı örneğin, girilen yazı, şimdilik şöyle alalım, scene, str, bir dakika tut scene, benim şey de sapıttı belki, arka plandaki interlisans, tamam şimdi oldu.
+
+03:42.500 --> 03:53.940
+Bu yazıda karakterlerin şöyle olduğunu düşünelim, A, B, C, Y, E, D, R, E bir takım karakterler var.
+
+03:53.940 --> 04:03.960
+Yazının içinde sadece unique olan karakterler kalacak, yani unique olmayanlar silinecek.
+
+04:03.960 --> 04:09.140
+Örneğin, örneği basit bir string üstünde gösterelim.
+
+04:10.140 --> 04:19.280
+A, B, C, D, E, F, A, B, 4, 5, 8, 7, 2, 3, 4, 5, D, G, S, W, T.
+
+04:19.280 --> 04:44.740
+A, unique olmadığı için silindi, altta gösterelim, A silindi, B, unique olduğu için kaldı, C silindi, D, E, F, arkadaşlar, D, E, F, D unique değil, E, F.
+
+04:44.740 --> 04:48.420
+Ve unique olanlar silindi, dört silinecek.
+
+04:48.660 --> 04:50.100
+Ama bu sıra korunacak.
+
+04:51.580 --> 04:52.420
+Anlaşıldı değil mi?
+
+04:52.420 --> 05:07.420
+Eğer zaten soru sadece unique olanlar kalsın olsaydı, soruyu çok basit bir şekilde arkadaşlar, algoritm, parçalık dosyasını include ederdim.
+
+05:07.420 --> 05:13.420
+Ve, stringi önce sort ederdim.
+
+05:15.260 --> 05:22.100
+Stood sort, str begin, str end.
+
+05:22.100 --> 05:28.840
+Ve, sort ettiğim stringi, unique hale getirirdim.
+
+05:28.920 --> 05:31.400
+Onun içinde unique algoritması var, hatırlayın.
+
+05:31.520 --> 05:40.220
+Unique, str begin, str end, logic end döndürüyordu.
+
+05:41.580 --> 05:46.900
+Ve, str'nin range arrays fonksiyonunu çağırırım.
+
+05:47.060 --> 05:49.160
+Stringin de bir konteyner olduğunu unutmayın.
+
+05:49.160 --> 05:54.360
+str'nin end'i, hatırladınız değil mi?
+
+05:54.600 --> 05:56.240
+Arrays remove gidiyor mu?
+
+05:57.600 --> 05:58.240
+Ve şimdi,
+
+06:01.000 --> 06:01.660
+see out,
+
+06:03.920 --> 06:04.660
+str,
+
+06:04.660 --> 06:18.660
+ve bu fonksiyon çağrılarından sonra,
+
+06:19.160 --> 06:20.880
+Arkadaşlar, tekrar yazdırıyorum.
+
+06:22.480 --> 06:24.440
+Unique olanlar kaldı.
+
+06:24.760 --> 06:26.920
+Onun dışındakiler simdi ama sıra bozuldu.
+
+06:29.960 --> 06:30.960
+Bir yazı girin.
+
+06:33.280 --> 06:36.760
+Elektrik birden kessince benim ide ayarlarım da gitti.
+
+06:36.760 --> 06:39.580
+Evet, bir yazı girin.
+
+06:39.580 --> 06:41.080
+Mesela,
+
+06:42.880 --> 06:48.160
+bugün elektrik kesildiği için,
+
+06:49.040 --> 06:53.260
+iki ayrı kayıt yapıldı.
+
+06:54.260 --> 06:55.360
+Yapılıyor.
+
+06:55.360 --> 06:57.740
+Arkadaşlar,
+
+06:57.740 --> 06:58.640
+arkadaşlar, evet.
+
+07:02.640 --> 07:03.740
+Yazdırdığım kısım,
+
+07:04.240 --> 07:05.740
+şurada iki kere yazdırmışım.
+
+07:06.740 --> 07:08.040
+Evet, arkadaşlar,
+
+07:08.580 --> 07:09.480
+str begin,
+
+07:09.800 --> 07:10.940
+str end,
+
+07:11.680 --> 07:13.120
+str'yi yazdırdım.
+
+07:14.080 --> 07:17.440
+Ama tabii boşluk karakterleri girdiğim için separatör oldu.
+
+07:17.560 --> 07:18.940
+Boşluk karakterlerini girmeyeceğim.
+
+07:18.940 --> 07:20.940
+O yüzden get life oksiyonunu çağırmıştım.
+
+07:21.700 --> 07:22.940
+Bugün kursu,
+
+07:23.600 --> 07:25.440
+iki ayrı ders,
+
+07:25.900 --> 07:26.500
+boşluk yok,
+
+07:26.660 --> 07:28.360
+olarak yaptık.
+
+07:30.240 --> 07:31.220
+Evet, bakın.
+
+07:31.340 --> 07:32.900
+Mesela şu karakterler yün itmiş.
+
+07:33.720 --> 07:34.940
+Ama şimdi soru,
+
+07:36.040 --> 07:38.240
+sırasıyla karakterleri korumak.
+
+07:38.240 --> 07:40.640
+Yani örneğin şöyle olsaydı,
+
+07:42.680 --> 07:47.520
+a, b, c, d, b, c, f, y,
+
+07:48.860 --> 07:50.920
+a, b, c,
+
+07:51.840 --> 07:53.000
+arkadaşlar, d,
+
+07:54.000 --> 07:55.240
+d kaldı,
+
+07:55.880 --> 07:56.160
+b,
+
+07:56.620 --> 07:58.080
+unique olmadığı için gitti.
+
+07:59.420 --> 07:59.720
+Evet.
+
+08:02.280 --> 08:03.040
+c,
+
+08:04.040 --> 08:06.220
+unique olmadığı için gitti.
+
+08:06.220 --> 08:08.060
+Size de mi sordular bir arkadaşım?
+
+08:08.060 --> 08:08.560
+diyor ki,
+
+08:09.280 --> 08:12.080
+ben de bunu tam anlattığının sıraya ihtiyacım oldu diyor.
+
+08:12.240 --> 08:12.580
+Güzel.
+
+08:14.080 --> 08:14.860
+Arkadaşlar, şimdi,
+
+08:15.540 --> 08:17.680
+bu tür soruların en kolay çözümü şu.
+
+08:19.040 --> 08:20.440
+String'i dolaşacaksınız.
+
+08:22.040 --> 08:26.200
+String'te tabii ki bir set kullanacaksınız.
+
+08:26.300 --> 08:28.380
+Bu unorder set olabilir, set olabilir.
+
+08:29.300 --> 08:31.700
+Soruyu tam şimdi sormamın nedeni,
+
+08:32.280 --> 08:34.200
+kullanacağımız set, bit set de olabilir.
+
+08:35.200 --> 08:36.860
+Son derece basit.
+
+08:36.860 --> 08:40.160
+İlk defa karakter karşımıza çıktığında,
+
+08:40.640 --> 08:41.720
+onu silmeyeceğiz.
+
+08:41.960 --> 08:43.660
+Ama onu sete koyacağız.
+
+08:44.660 --> 08:45.460
+Arkadaşlar,
+
+08:46.240 --> 08:49.240
+karakterlerin her birini dolaştığımızda da,
+
+08:49.880 --> 08:51.440
+set de var mı?
+
+08:51.680 --> 08:52.360
+Ona bakacağız.
+
+08:52.660 --> 08:54.520
+Set de varsa,
+
+08:54.520 --> 08:56.620
+o zaman,
+
+08:56.620 --> 08:57.720
+o zaman demek ki,
+
+08:58.180 --> 09:00.580
+ikinci kez ya da eninci kez çıkmış,
+
+09:01.220 --> 09:01.820
+sileceğiz.
+
+09:02.220 --> 09:03.840
+Set de yoksa,
+
+09:04.440 --> 09:05.240
+silmeyeceğiz.
+
+09:05.740 --> 09:07.740
+Ama onu da sete insert edeceğiz.
+
+09:07.840 --> 09:08.840
+Deniz anladınız mı?
+
+09:10.900 --> 09:11.840
+Çözümü anladınız mı?
+
+09:11.900 --> 09:13.800
+Bu herhangi bir konteyner için geçerli.
+
+09:14.440 --> 09:16.260
+Yani soru şöyle de sorulabilirdi.
+
+09:16.260 --> 09:21.220
+Aslında string ile kafanız biraz daha karışmasın diye,
+
+09:21.460 --> 09:22.960
+vektör versiyonunu soralım.
+
+09:24.060 --> 09:24.480
+Bakın,
+
+09:26.860 --> 09:27.720
+vektörün,
+
+09:28.860 --> 09:29.780
+int açılımı,
+
+09:29.780 --> 09:30.980
+ivek,
+
+09:34.200 --> 09:35.480
+yüz tane ve olsun,
+
+09:39.160 --> 09:39.980
+generate,
+
+09:42.180 --> 09:42.880
+ivek begin,
+
+09:45.020 --> 09:45.800
+ivek end,
+
+09:48.680 --> 09:49.160
+arkadaşlar,
+
+09:50.840 --> 09:51.800
+tırt tane ve olsun,
+
+09:53.340 --> 09:53.940
+ivek begin,
+
+09:54.060 --> 09:54.840
+ivek end,
+
+09:56.960 --> 09:57.620
+by rent,
+
+09:57.620 --> 10:08.100
+by rent,
+
+10:08.820 --> 10:09.400
+0,
+
+10:09.400 --> 10:10.700
+99,
+
+10:16.700 --> 10:17.380
+evet,
+
+10:17.640 --> 10:18.240
+c print,
+
+10:19.820 --> 10:20.280
+ivek,
+
+10:20.280 --> 10:27.880
+Evet, bakın.
+
+10:28.300 --> 10:30.160
+Yalnız bunu C++'la kodlarken,
+
+10:30.320 --> 10:31.600
+çok dikkatli olmanız gerekiyor.
+
+10:31.740 --> 10:32.120
+Geçen,
+
+10:32.920 --> 10:35.640
+iterator invalidation'dan bahsetmiştik.
+
+10:35.940 --> 10:37.320
+Orada anlattıklarımı,
+
+10:37.400 --> 10:38.980
+kesinlikle uygulamanız gerekiyor.
+
+10:39.660 --> 10:41.580
+Ama şimdi soruyu biraz daha ilginç kılan.
+
+10:43.060 --> 10:44.880
+Normalde burada set kullanacağım ya,
+
+10:44.980 --> 10:46.860
+set yerine bit set kullanabilir miyim?
+
+10:46.860 --> 10:48.860
+Arkadaşlar,
+
+10:50.280 --> 10:52.860
+cevap tabii ki bit set de kullanabilirim.
+
+10:52.920 --> 10:55.660
+Bit set'in zaten kullanım amaçlarından biri bu.
+
+10:56.660 --> 10:57.440
+Özellikle,
+
+10:58.180 --> 11:00.780
+burada da değerlerin 0,
+
+11:01.120 --> 11:03.400
+99 aralığında olduğunu söyledim.
+
+11:03.500 --> 11:03.960
+O zaman,
+
+11:05.000 --> 11:06.440
+onları tutması için,
+
+11:06.660 --> 11:08.760
+bit set partik dosyasını dahil edelim.
+
+11:10.840 --> 11:11.560
+Bit set'in,
+
+11:11.560 --> 11:16.440
+Arkadaşlar,
+
+11:16.480 --> 11:17.740
+yüz açılımı türünden,
+
+11:18.060 --> 11:18.440
+pz.
+
+11:18.660 --> 11:19.700
+Şimdi bütün bitler 0.
+
+11:24.320 --> 11:25.760
+Vektörü dolaşıyorum.
+
+11:27.040 --> 11:28.060
+Bu arada şuraya kadar,
+
+11:28.560 --> 11:29.960
+bir derleyip çalıştıralım.
+
+11:31.680 --> 11:31.980
+Evet,
+
+11:32.140 --> 11:32.720
+bakın şimdi,
+
+11:32.940 --> 11:33.960
+vektörü dolaşıyorum.
+
+11:33.960 --> 11:39.460
+auto iter eşittir,
+
+11:40.820 --> 11:42.540
+ibek'in begin'i,
+
+11:43.580 --> 11:58.340
+while iter eşit olmadığı sürece,
+
+11:58.340 --> 12:01.520
+ibek'in end'i,
+
+12:10.140 --> 12:10.480
+if,
+
+12:13.200 --> 12:13.920
+bs,
+
+12:16.000 --> 12:18.120
+test ya da köşeli parantez,
+
+12:21.120 --> 12:22.560
+yıldız iter,
+
+12:22.560 --> 12:29.020
+eğer bu arkadaşlar,
+
+12:29.360 --> 12:29.960
+true ise,
+
+12:31.380 --> 12:32.720
+demek ki sette var.
+
+12:33.740 --> 12:34.920
+Sette olduğuna göre,
+
+12:35.900 --> 12:37.300
+tekrar etmiş demektir.
+
+12:38.120 --> 12:38.840
+Bu durumda,
+
+12:39.480 --> 12:39.940
+sileceğim.
+
+12:40.640 --> 12:42.220
+Ama silme için hatırlayın,
+
+12:43.120 --> 12:43.800
+ibek'in,
+
+12:44.100 --> 12:45.400
+e-reizini çağırıyorum,
+
+12:47.180 --> 12:49.340
+iteratör konumunu veriyorum,
+
+12:49.840 --> 12:50.300
+iter,
+
+12:50.300 --> 12:52.660
+fakat geri dönüş değerini,
+
+12:53.100 --> 12:54.520
+yine iteratörde sakladım.
+
+12:56.780 --> 12:57.820
+Bu durumda,
+
+12:58.360 --> 12:59.400
+er-reiz fonksiyonu,
+
+12:59.560 --> 13:00.520
+silinen öğeden,
+
+13:00.760 --> 13:01.800
+sonraki öğeyi,
+
+13:02.600 --> 13:03.840
+öğeye iteratör oldu.
+
+13:04.200 --> 13:05.880
+Bu durumda iteratörü arttırmıyorum.
+
+13:06.560 --> 13:08.180
+Zaten bir sonraki öğeyi gösteriyor.
+
+13:09.080 --> 13:10.080
+Takip edebiliyor muyuz?
+
+13:10.080 --> 13:10.640
+Else,
+
+13:13.560 --> 13:14.500
+bit sette yok.
+
+13:15.180 --> 13:15.720
+O zaman,
+
+13:16.860 --> 13:18.340
+bs,
+
+13:19.260 --> 13:19.760
+iter,
+
+13:20.300 --> 13:21.540
+eşittir,
+
+13:21.860 --> 13:22.160
+true,
+
+13:24.560 --> 13:25.360
+yıldız iter,
+
+13:27.200 --> 13:27.420
+ve
+
+13:27.420 --> 13:28.840
+artı artı iter.
+
+13:33.100 --> 13:34.380
+Koda bakın bir daha,
+
+13:34.500 --> 13:35.820
+Deniz sizin yazdığınız kodda,
+
+13:35.880 --> 13:36.480
+böyle miydi?
+
+13:37.480 --> 13:38.580
+Ha burada normal set,
+
+13:38.660 --> 13:39.560
+unorder set vs.
+
+13:39.820 --> 13:40.520
+kullanabilirim.
+
+13:40.620 --> 13:41.820
+Ama bu tür sorular için,
+
+13:41.980 --> 13:43.100
+en pratiği bit set.
+
+13:43.100 --> 13:47.420
+Çünkü bellekte artışık olarak tutuluyor arkadaşlar.
+
+13:48.220 --> 13:51.040
+Bit set işlemlerle çok hızlı bir şekilde erişiyorsunuz.
+
+13:51.640 --> 13:54.300
+Zaten değer sayısı da belli olduğuna göre,
+
+13:54.500 --> 13:55.360
+böyle yazabilirim.
+
+13:55.800 --> 13:57.300
+Ama yine de bir hata görüyorsanız,
+
+13:57.440 --> 13:58.300
+hatayı söyleyin.
+
+13:58.380 --> 13:59.020
+Bir daha bakalım.
+
+13:59.020 --> 14:00.580
+iter,
+
+14:00.580 --> 14:00.760
+iter,
+
+14:01.760 --> 14:04.000
+ibekinendine eşit olmadığı sürece,
+
+14:05.080 --> 14:05.860
+bit set'in,
+
+14:06.500 --> 14:07.320
+yıldız iter,
+
+14:07.640 --> 14:09.140
+indisti elemanının,
+
+14:09.280 --> 14:10.780
+true olup olmadığına baktım.
+
+14:10.980 --> 14:11.580
+True ise,
+
+14:12.620 --> 14:14.580
+iter konumundaki nesneyi,
+
+14:14.760 --> 14:16.460
+eres fonksiyonuyla sildim.
+
+14:17.340 --> 14:18.960
+Ve iter'e yeni değer olarak,
+
+14:19.120 --> 14:21.340
+iterator invalidation'dan kaçınmak için,
+
+14:21.980 --> 14:23.920
+eresin geri dönüş değerini atadım.
+
+14:24.120 --> 14:24.940
+Eres zaten,
+
+14:25.720 --> 14:26.480
+silinen öğeden,
+
+14:26.480 --> 14:28.380
+sonraki öğenin konumunu döndürüyor.
+
+14:29.400 --> 14:31.400
+Eğer bit set'te yoksa,
+
+14:32.360 --> 14:33.120
+arkadaşlar,
+
+14:33.740 --> 14:34.480
+bit set'in,
+
+14:34.680 --> 14:35.860
+o indisti elemanını,
+
+14:36.140 --> 14:36.900
+true yaptım.
+
+14:37.080 --> 14:38.780
+Ve iteratörü arttırdım.
+
+14:41.960 --> 14:43.520
+Bu tür sorularda,
+
+14:43.660 --> 14:45.320
+aklınıza bit set de gelsin.
+
+14:46.080 --> 14:46.340
+Yani,
+
+14:47.520 --> 14:47.920
+burada,
+
+14:48.620 --> 14:49.740
+look up table olarak,
+
+14:50.000 --> 14:51.320
+normal set kullanmak,
+
+14:51.900 --> 14:53.800
+arkada ikili arama adı olduğu için,
+
+14:53.960 --> 14:55.940
+maliyeti daha fazla yükseltecekti.
+
+14:56.480 --> 14:57.080
+almışım.
+
+15:07.400 --> 15:08.400
+Almışım.
+
+15:08.400 --> 15:09.400
+Almışım.
+
+15:09.400 --> 15:10.400
+Almışım.
+
+15:10.400 --> 15:11.400
+Almışım.
+
+15:11.400 --> 15:11.420
+Almışım.
+
+15:11.420 --> 15:14.420
+Almışım.
+
+15:14.420 --> 15:15.060
+Almışım.
+
+15:15.060 --> 15:15.660
+Almışım.
+
+15:15.660 --> 15:40.420
+Evet maalesef tekrar elektrik kesildi.
+
+15:40.900 --> 15:42.680
+Şu anda herkes duyuyor mu?
+
+15:42.680 --> 15:44.560
+Bugün talihsiz bir gün.
+
+15:44.560 --> 15:47.180
+En son nereyi duyduğunuz bilmiyorum.
+
+15:47.600 --> 15:49.880
+Kayıtta bu sefer umarım problem olmaz.
+
+15:50.560 --> 15:54.000
+Arkadaşlar sorunun çözümünü bitirdik.
+
+15:54.160 --> 15:55.900
+Oraya kadar takip edebildiniz mi?
+
+15:57.360 --> 16:00.040
+Şimdi aralığı biraz daraltalım.
+
+16:06.640 --> 16:09.260
+Unicomya sayısı biraz daha artsın.
+
+16:10.680 --> 16:11.680
+Evet görüyorsunuz.
+
+16:11.680 --> 16:17.400
+Mesela Bitset'in kullanımına arkadaşlar güzel bir örnek.
+
+16:17.400 --> 16:19.900
+Bu arada bakın şuraya kadar geldi.
+
+16:20.440 --> 16:23.340
+0, 45, 48, 13, 39, 38.
+
+16:24.340 --> 16:29.180
+Şurada ilk tekrar eden sayı 3'ü atladı.
+
+16:29.580 --> 16:31.400
+41, 41'i atladı.
+
+16:32.460 --> 16:34.020
+33 arkadaşlar.
+
+16:34.020 --> 16:37.680
+41'i yazdı.
+
+16:37.740 --> 16:38.880
+İkinci 41'i atladı.
+
+16:38.880 --> 16:39.980
+33'ü atladı.
+
+16:40.980 --> 16:43.180
+Ve ondan sonra 4.
+
+16:43.460 --> 16:45.240
+Öyle gidiyor 33 varmış gerçekten.
+
+16:46.500 --> 16:48.340
+Sorunun çözümünü anlamayan var mı?
+
+16:48.340 --> 16:55.920
+String'i ele alırken char'ları integral promotion ile int'e çevirip mi yapmalıyız?
+
+16:56.160 --> 17:00.720
+Aslında soru da string olmasında alian hiçbir ilave faktörü yok.
+
+17:00.820 --> 17:01.880
+String de bir container.
+
+17:01.880 --> 17:08.040
+Dolayısıyla String'de de tutulan öğeler zaten tar.
+
+17:08.600 --> 17:10.500
+O zaman da string de şöyle olacaktı.
+
+17:10.560 --> 17:11.620
+O kısmını göstereyim.
+
+17:11.760 --> 17:12.200
+String.
+
+17:13.340 --> 17:14.260
+Str.
+
+17:15.600 --> 17:19.160
+Bir şekilde string'in doğduğunu düşünün.
+
+17:19.160 --> 17:30.540
+Buradaki bit set, bit set'in aslıyla 128 tane karakter olduğu için 128 açılımı olacaktı.
+
+17:31.580 --> 17:36.520
+İvek, Str'nin begin'i olacaktı arkadaşlar.
+
+17:37.720 --> 17:44.960
+İter, Str'nin end'i olmadığı sürece vs, yıldız iter.
+
+17:44.960 --> 17:51.420
+Ha, burada zaten char integral promotion ile int'e yükseltilecek.
+
+17:51.820 --> 17:55.020
+Ama açık şekilde yükseltseniz de herhangi bir problem yok.
+
+17:55.920 --> 17:56.540
+Anladınız değil mi?
+
+17:56.540 --> 18:00.960
+String'in de yine aynı şekilde arkadaşlar rs fonksiyonu var.
+
+18:01.260 --> 18:02.620
+Str'nin rs'de.
+
+18:03.840 --> 18:04.640
+İşte bu kadar.
+
+18:06.780 --> 18:07.480
+Anlaşıldı mı?
+
+18:08.180 --> 18:08.400
+Evet.
+
+18:09.400 --> 18:12.660
+Peki şimdi bit set'e devam edelim.
+
+18:12.660 --> 18:15.580
+En son bit set operatörleri gördük.
+
+18:16.220 --> 18:21.540
+Bit set veya bit set özel veya bit set sağa kaydırma, bit set sola kaydırma.
+
+18:22.440 --> 18:24.780
+Orada not olarak şunu söyledik.
+
+18:26.100 --> 18:33.480
+Bs bir bit set nesnesi ise burada bu bit set sağa kaydırma operatörü.
+
+18:33.480 --> 18:43.720
+Yani böyle yazmakla bs'nin operatör left right shift fonksiyonunu çağır, ona 12 argüman olarak gönder, aynı.
+
+18:43.720 --> 19:00.720
+Ama formatlı yazma işlemine gelince böyle yazarsak arkadaşlar bu durumda operatör öncelik yönü soldan sağa olduğu için önce bu işlem yapılacak ve ondan sonra 12 değeri yazılacak.
+
+19:00.720 --> 19:07.640
+Ama biz bunu yazdırmak istiyorsak dedik, öncelik parantezi kullanmak zorundayız.
+
+19:08.380 --> 19:12.040
+Şimdi bir de dönüşüm fonksiyonlarına bakalım.
+
+19:12.820 --> 19:17.700
+Arkadaşlar bit set'ten ham sayıya ve string'e dönüşüm var.
+
+19:18.560 --> 19:25.720
+Bu fonksiyonların ismi bit set'in üye fonksiyonu bunlar to string ve to ulong.
+
+19:26.400 --> 19:27.520
+Ve to ulong.
+
+19:27.520 --> 19:29.060
+Önce bunları bir görelim.
+
+19:33.920 --> 19:40.160
+Bit set'in 32 açılımı arkadaşlar bs.
+
+19:45.860 --> 19:48.320
+Arada bir takım işlemler yapılmış.
+
+19:49.900 --> 19:53.840
+Bs'nin to ulong.
+
+19:53.840 --> 20:00.400
+Ama buraya dikkat edin mesela benim derleyicimde long türü 4 byte, unsign long türü 8 byte.
+
+20:00.400 --> 20:06.560
+Dolayısıyla büyük bir string olduğunda, örneğin şöyle.
+
+20:13.840 --> 20:26.080
+Arkadaşlar bir set'in 32 açılımı olmasaydı, bir set'in 80 açılımı olsaydı sığmama durumu da olabilirdi.
+
+20:26.080 --> 20:28.320
+İşte o zaman exception prove edecek yine.
+
+20:33.120 --> 20:34.060
+Mesela bakın.
+
+20:35.060 --> 20:37.700
+Hatta şimdiden exception prove edebilir diye.
+
+20:37.700 --> 20:56.460
+Buradaki gönderilecek exception'in türü, yani unsign long'a dönüştürüyorsanız, unsign long sınırına sığmıyorsa,
+
+20:56.460 --> 20:57.920
+overflow error.
+
+20:57.920 --> 21:03.280
+Bu da runtime error'den kalıtım yoluyla elde edilmiş bir sınıf.
+
+21:03.520 --> 21:05.680
+Yani böyle de yakalayabilirim.
+
+21:06.440 --> 21:08.540
+Runtime error ile de yakalayabilirim.
+
+21:09.400 --> 21:14.920
+Arkadaşlar, overflow error ile de yakalayabilirim.
+
+21:14.920 --> 21:23.420
+std-exit başlık dosyasını da dahil edelim.
+
+21:32.480 --> 21:33.600
+Over tool over error.
+
+21:37.200 --> 21:38.200
+bs'nin
+
+21:38.200 --> 21:41.040
+to
+
+21:41.040 --> 21:44.600
+U-long fonksiyonu.
+
+21:46.600 --> 21:47.960
+Geri dönüş değerini
+
+21:47.960 --> 21:52.500
+unsign long tür'den bir değişkende sakladım.
+
+21:54.500 --> 21:56.860
+Ve değeri yazdırdım.
+
+21:56.860 --> 22:02.180
+Ciheart
+
+22:02.180 --> 22:04.700
+Warriors.
+
+22:05.820 --> 22:08.640
+abone ol
+
+22:08.640 --> 22:09.460
+abone ol
+
+22:09.680 --> 22:12.060
+mam
+
+22:16.640 --> 22:16.880
+abone ol
+
+22:26.080 --> 22:26.580
+abone ol
+
+22:26.580 --> 22:28.600
+Bakın overflow hatası oldu.
+
+22:29.820 --> 22:30.600
+Azaltalım.
+
+22:42.600 --> 22:47.260
+Şimdi 5 milyon 417 bin 554.
+
+22:47.940 --> 22:53.460
+Sınıfın, buraya dikkat, arada sadece bir farkı var ama tamamen değişiyor.
+
+22:53.580 --> 22:55.480
+Bakınız ilk haline geri döndüreyim.
+
+22:56.580 --> 23:02.860
+To long yerine to long fonksiyonunu çağıralım.
+
+23:03.860 --> 23:06.680
+Bu fonksiyonun geri dönüş değeri unsigned long long.
+
+23:08.140 --> 23:14.680
+Dolayısıyla auto type bidakçımı kullandığım için var değişkeninin türü de unsigned long long.
+
+23:15.540 --> 23:17.460
+Şimdi bakalım exception prove edecek mi?
+
+23:19.140 --> 23:24.080
+Exception prove etmedi çünkü bir taşma olmadı.
+
+23:24.080 --> 23:28.600
+Sınıfın string fonksiyonu arkadaşlar string'e dönüştürüyor.
+
+23:28.600 --> 23:32.420
+Bu sefer count tersini yapalım.
+
+23:33.800 --> 23:35.880
+Bit set 64
+
+23:35.880 --> 23:47.160
+bs
+
+23:47.160 --> 23:49.320
+to string
+
+23:49.320 --> 23:54.280
+eğer hiç argüman geçmezseniz to string fonksiyonuna
+
+23:54.280 --> 23:59.600
+to string fonksiyonu doğrudan 0 ve 1 karakterlerini kullanıyor.
+
+23:59.600 --> 24:03.300
+Yani örneğin c alt
+
+24:03.300 --> 24:14.940
+Gördünüz.
+
+24:15.420 --> 24:15.720
+Ama
+
+24:15.720 --> 24:18.620
+eğer bir karakter verirsem
+
+24:18.620 --> 24:22.220
+0 yerine bunu kullan demek.
+
+24:22.220 --> 24:28.600
+Bakın 0 yerine A koydu.
+
+24:30.240 --> 24:32.200
+İkinci bir argüman verirsem
+
+24:32.200 --> 24:37.000
+bir yerine de B koyacak.
+
+24:37.500 --> 24:37.900
+Sting'e.
+
+24:41.900 --> 24:42.220
+Evet.
+
+24:43.100 --> 24:44.220
+Bunu istediğim gibi ayarlayabilirim.
+
+24:44.220 --> 24:46.640
+Örneğin x ve y.
+
+24:58.640 --> 24:59.600
+Takip edebildik mi?
+
+25:00.280 --> 25:00.460
+Evet.
+
+25:01.220 --> 25:02.100
+Arkadaşlar şimdi
+
+25:02.100 --> 25:06.140
+şu structure binding hakkında biraz konuşalım.
+
+25:07.080 --> 25:09.140
+Yine bugünkü dersi böyle bitireceğiz.
+
+25:09.300 --> 25:11.300
+Biraz da yine algoritmalara bakacağız.
+
+25:11.300 --> 25:13.420
+Algoritma derken bir tanesini atladık.
+
+25:14.560 --> 25:16.540
+O arada konu başka bir yere gitti.
+
+25:17.480 --> 25:19.060
+Binary search algoritması.
+
+25:19.160 --> 25:20.680
+Binary search algoritması
+
+25:20.680 --> 25:23.560
+yine sıralı bir vere yapısında
+
+25:23.560 --> 25:24.820
+adı üstünde
+
+25:24.820 --> 25:26.560
+binary search'ı uyguluyor.
+
+25:27.220 --> 25:28.480
+Yalnız burada binary search
+
+25:28.480 --> 25:29.920
+boolean değer döndürüyor.
+
+25:30.100 --> 25:31.420
+Yani binary search'te
+
+25:31.420 --> 25:32.960
+var mı yok mu
+
+25:32.960 --> 25:34.220
+onu bulabilirsiniz.
+
+25:35.360 --> 25:36.400
+Eğer aranmada
+
+25:36.400 --> 25:38.140
+konum ihtiyacınız varsa
+
+25:38.140 --> 25:39.500
+lower bound
+
+25:39.500 --> 25:40.360
+upper bound
+
+25:40.360 --> 25:41.480
+equal range
+
+25:41.480 --> 25:42.600
+o fonksiyonlardan
+
+25:42.600 --> 25:44.140
+birini çağırmanız
+
+25:44.140 --> 25:44.740
+gerekecek.
+
+25:45.480 --> 25:46.260
+Ben lower bound
+
+25:46.260 --> 25:47.020
+upper bound'u
+
+25:47.020 --> 25:47.880
+anlatmıştım ama
+
+25:47.880 --> 25:48.720
+binary search'ı
+
+25:48.720 --> 25:49.940
+sanki göstermedim
+
+25:49.940 --> 25:50.740
+diye hatırlıyorum.
+
+25:51.440 --> 25:52.080
+Arkadaşlar
+
+25:52.080 --> 25:53.320
+vektörün
+
+25:53.320 --> 25:54.540
+hemen basit bir
+
+25:54.540 --> 25:56.120
+binary search kodu
+
+25:56.120 --> 25:56.840
+oluşturalım.
+
+25:56.960 --> 25:57.620
+Vektörün
+
+25:57.620 --> 25:58.760
+int açılımı
+
+25:58.760 --> 26:00.240
+ivec
+
+26:00.240 --> 26:12.520
+random fill
+
+26:12.520 --> 26:14.700
+artık random fill
+
+26:14.700 --> 26:15.480
+de kullanmayalım.
+
+26:15.600 --> 26:16.340
+Bari generate
+
+26:16.340 --> 26:17.300
+fonksiyonunu öğrendik
+
+26:17.300 --> 26:18.060
+onu tekrarında
+
+26:18.060 --> 26:18.880
+yapmış oluruz.
+
+26:18.880 --> 26:19.880
+Algoritm
+
+26:19.880 --> 26:24.700
+generate
+
+26:24.700 --> 26:35.740
+ibeg
+
+26:35.740 --> 26:36.180
+plugin
+
+26:36.180 --> 26:38.940
+ibeg
+
+26:38.940 --> 26:39.340
+end
+
+26:39.340 --> 26:48.360
+kendi jeneratörümü
+
+26:48.360 --> 26:48.680
+kullanayım.
+
+26:48.780 --> 26:49.420
+Mesela standart
+
+26:49.420 --> 26:50.260
+fonksiyonunu da
+
+26:50.260 --> 26:51.060
+kullanabilirdim.
+
+26:51.820 --> 26:52.360
+Hadi onu da bir
+
+26:52.360 --> 26:53.100
+hatırlatalım.
+
+26:54.660 --> 26:55.800
+Time başlık dosyasını
+
+26:55.800 --> 26:56.500
+dahil ediyorum.
+
+26:56.700 --> 26:57.200
+C time
+
+26:57.200 --> 27:00.640
+csd
+
+27:00.640 --> 27:01.200
+delik
+
+27:01.200 --> 27:04.980
+tabi
+
+27:04.980 --> 27:05.980
+bizim yerimizde
+
+27:05.980 --> 27:06.520
+müthiş bir
+
+27:06.520 --> 27:07.560
+random kütüphanesi
+
+27:07.560 --> 27:08.000
+varken
+
+27:08.000 --> 27:09.120
+C'deki
+
+27:09.120 --> 27:09.340
+rant
+
+27:09.340 --> 27:09.940
+fonksiyonunu
+
+27:09.940 --> 27:10.540
+çağırmamız
+
+27:10.540 --> 27:11.180
+çok akılcı
+
+27:11.180 --> 27:12.080
+değil ama
+
+27:12.080 --> 27:13.080
+yine de olsun.
+
+27:14.180 --> 27:14.860
+Arkadaşlar
+
+27:14.860 --> 27:16.700
+s rant
+
+27:16.700 --> 27:18.180
+her defasında
+
+27:18.180 --> 27:18.840
+ayrı bir sayı
+
+27:18.840 --> 27:19.220
+zinciri
+
+27:19.220 --> 27:19.960
+oluşsun diye
+
+27:19.960 --> 27:22.260
+static cast
+
+27:22.260 --> 27:26.920
+unsigned
+
+27:26.920 --> 27:32.060
+static cast
+
+27:32.060 --> 27:32.960
+static cast
+
+27:32.960 --> 27:33.660
+unsigned
+
+27:33.660 --> 27:34.540
+time
+
+27:34.540 --> 27:36.780
+null ptr
+
+27:36.780 --> 27:42.180
+Şimdi jeneratörüme
+
+27:42.180 --> 27:45.940
+lambda ifadesi
+
+27:45.940 --> 27:46.400
+veriyorum.
+
+27:47.800 --> 27:48.760
+Return
+
+27:48.760 --> 27:50.080
+rant
+
+27:50.080 --> 27:51.840
+efendim
+
+27:51.840 --> 27:52.380
+mod
+
+27:52.380 --> 27:53.480
+arkadaşlar
+
+27:53.480 --> 27:56.620
+in
+
+27:56.620 --> 28:01.180
+vektör
+
+28:01.180 --> 28:01.540
+başlık
+
+28:01.540 --> 28:02.200
+dosyası
+
+28:02.200 --> 28:08.900
+noktalı
+
+28:08.900 --> 28:09.440
+virgül
+
+28:09.440 --> 28:12.280
+evet yazdıralım
+
+28:12.280 --> 28:13.140
+jprint
+
+28:13.140 --> 28:15.660
+ibek
+
+28:15.660 --> 28:16.340
+ama
+
+28:16.340 --> 28:17.600
+sort edecek mi?
+
+28:17.760 --> 28:17.980
+Bakın
+
+28:17.980 --> 28:18.700
+küçükten büyüğe
+
+28:18.700 --> 28:19.380
+sort ediyorum
+
+28:19.380 --> 28:20.800
+sort
+
+28:20.800 --> 28:24.600
+ibek
+
+28:24.600 --> 28:25.060
+begin
+
+28:25.060 --> 28:30.840
+ibek
+
+28:30.840 --> 28:31.180
+end
+
+28:31.180 --> 28:34.840
+şimdi küçükten büyüğe
+
+28:34.840 --> 28:35.340
+sıralı
+
+28:35.980 --> 28:37.340
+utility
+
+28:37.340 --> 28:37.940
+başlık
+
+28:37.940 --> 28:38.560
+dosyası
+
+28:38.560 --> 28:43.460
+int
+
+28:43.460 --> 28:44.500
+valk
+
+28:44.500 --> 28:44.520
+valk
+
+28:44.520 --> 28:47.020
+see out
+
+28:47.020 --> 28:48.440
+aranan değer
+
+28:48.440 --> 28:51.920
+see in
+
+28:51.920 --> 28:53.160
+valk
+
+28:53.160 --> 28:55.520
+if
+
+28:55.520 --> 28:57.280
+binary search
+
+28:57.280 --> 29:01.980
+ibek
+
+29:01.980 --> 29:02.440
+begin
+
+29:02.440 --> 29:07.580
+ibek
+
+29:07.580 --> 29:08.060
+end
+
+29:08.060 --> 29:11.840
+valk
+
+29:11.840 --> 29:13.660
+true
+
+29:13.660 --> 29:14.560
+döndürürse
+
+29:14.560 --> 29:16.440
+see out
+
+29:16.440 --> 29:17.740
+evet var
+
+29:17.740 --> 29:21.340
+as
+
+29:21.340 --> 29:25.000
+see out
+
+29:25.000 --> 29:26.760
+hayır
+
+29:26.760 --> 29:27.500
+yok
+
+29:27.500 --> 29:35.280
+evet
+
+29:35.280 --> 29:36.120
+aranan değer
+
+29:36.120 --> 29:36.900
+örneğin
+
+29:36.900 --> 29:38.880
+384
+
+29:38.880 --> 29:42.560
+evet var
+
+29:42.560 --> 29:43.860
+aranan değer
+
+29:43.860 --> 29:46.460
+812
+
+29:46.460 --> 29:47.660
+811
+
+29:47.660 --> 29:48.580
+828
+
+29:48.580 --> 29:49.360
+812
+
+29:49.360 --> 29:49.720
+yok
+
+29:49.720 --> 29:50.660
+ayır
+
+29:50.660 --> 29:50.880
+yok
+
+29:50.880 --> 29:52.000
+ama konum
+
+29:52.000 --> 29:52.980
+bulmak isteseydim
+
+29:52.980 --> 29:53.300
+bu arada
+
+29:53.300 --> 29:54.100
+tabi ki
+
+29:54.100 --> 29:55.640
+prediket alan
+
+29:55.640 --> 29:56.940
+bir overloadu var
+
+29:56.940 --> 29:58.200
+ona da gösterelim
+
+29:58.200 --> 29:59.020
+mesela
+
+29:59.020 --> 29:59.940
+sortu şöyle
+
+29:59.940 --> 30:01.760
+çalıştırsaydım
+
+30:01.760 --> 30:03.820
+büyükten küçüğe
+
+30:03.820 --> 30:04.500
+sıralama
+
+30:04.500 --> 30:09.320
+burada da
+
+30:09.320 --> 30:11.300
+binary search'e de
+
+30:11.300 --> 30:11.960
+aynı
+
+30:11.960 --> 30:13.820
+predicate'i
+
+30:13.820 --> 30:14.620
+vermem
+
+30:14.620 --> 30:15.500
+gerekiyordu
+
+30:15.500 --> 30:16.560
+creator
+
+30:16.560 --> 30:22.580
+tabi ki
+
+30:22.580 --> 30:22.840
+burada
+
+30:22.840 --> 30:23.520
+algoritmanın
+
+30:23.520 --> 30:24.700
+karmaşıklığı
+
+30:24.700 --> 30:25.000
+o
+
+30:25.000 --> 30:25.660
+logen
+
+30:25.660 --> 30:26.740
+390
+
+30:26.740 --> 30:28.140
+evet
+
+30:28.140 --> 30:28.840
+var
+
+30:28.840 --> 30:30.900
+fakat
+
+30:30.900 --> 30:32.100
+o konuma
+
+30:32.100 --> 30:32.720
+erişmem
+
+30:32.720 --> 30:33.500
+gerekiyorsa
+
+30:33.500 --> 30:35.060
+o zaman
+
+30:35.060 --> 30:36.280
+arkadaşlar
+
+30:36.280 --> 30:36.920
+hadi onu da
+
+30:36.920 --> 30:37.420
+yapalım
+
+30:37.420 --> 30:45.900
+oto iter
+
+30:46.560 --> 30:48.460
+eşittir
+
+30:48.460 --> 30:49.780
+lower bound
+
+30:49.780 --> 30:51.060
+creator'ı
+
+30:51.060 --> 30:51.560
+sileyim
+
+30:51.560 --> 30:56.900
+lower bound
+
+30:56.900 --> 31:01.740
+evic begin
+
+31:01.740 --> 31:04.860
+evic end
+
+31:04.860 --> 31:11.880
+lower bound
+
+31:11.880 --> 31:13.420
+onun insert edilebileceği
+
+31:13.420 --> 31:14.800
+ilk konumu döndürüyordu
+
+31:14.800 --> 31:16.960
+var
+
+31:16.960 --> 31:21.140
+var
+
+31:21.140 --> 31:28.220
+şöyle yazmalıyım
+
+31:28.220 --> 31:28.560
+değil mi
+
+31:28.560 --> 31:29.040
+if
+
+31:29.040 --> 31:30.380
+iter
+
+31:30.380 --> 31:34.260
+arkadaşlar
+
+31:34.260 --> 31:40.380
+eşit değilse
+
+31:40.380 --> 31:45.520
+evic end
+
+31:45.520 --> 31:53.760
+ve
+
+31:53.760 --> 31:56.660
+yıldız iter
+
+31:56.660 --> 31:58.980
+eşit değilse
+
+31:58.980 --> 32:00.100
+var
+
+32:00.100 --> 32:03.080
+siyahut
+
+32:03.080 --> 32:04.380
+bulundu
+
+32:04.380 --> 32:08.460
+iter konumu
+
+32:08.460 --> 32:10.660
+oyunun konumu
+
+32:10.660 --> 32:12.060
+genel mantığı
+
+32:12.060 --> 32:12.500
+anladınız
+
+32:12.500 --> 32:12.780
+değil mi
+
+32:12.780 --> 32:13.060
+şimdi
+
+32:13.060 --> 32:14.480
+değerler şöyle ya
+
+32:14.480 --> 32:16.180
+4 5 7
+
+32:16.180 --> 32:18.020
+9
+
+32:18.020 --> 32:21.980
+örneğin
+
+32:21.980 --> 32:22.420
+7'yi
+
+32:22.420 --> 32:23.160
+arasaydım
+
+32:23.160 --> 32:24.820
+bana
+
+32:24.820 --> 32:26.120
+lower bound
+
+32:26.120 --> 32:26.640
+şu konumu
+
+32:26.640 --> 32:27.380
+verecekti
+
+32:27.380 --> 32:28.800
+end
+
+32:28.800 --> 32:29.140
+konumu
+
+32:29.140 --> 32:29.760
+olmayacak
+
+32:29.760 --> 32:30.580
+ve bu konumda
+
+32:30.580 --> 32:30.820
+köye
+
+32:30.820 --> 32:31.260
+aradığım
+
+32:31.260 --> 32:31.780
+değer olacak
+
+32:31.780 --> 32:32.380
+neden böyle
+
+32:32.380 --> 32:32.780
+diyorum
+
+32:32.780 --> 32:34.340
+çünkü örneğin
+
+32:34.340 --> 32:36.820
+arkadaşlar
+
+32:36.820 --> 32:38.400
+8'i arasaydım
+
+32:38.400 --> 32:39.320
+bana bu
+
+32:39.320 --> 32:39.620
+konumu
+
+32:39.620 --> 32:40.380
+verecekti
+
+32:40.380 --> 32:42.540
+ama ben bu
+
+32:42.540 --> 32:42.940
+konumda
+
+32:42.940 --> 32:43.480
+köyenin
+
+32:43.480 --> 32:44.340
+8 olmadığını
+
+32:44.340 --> 32:45.220
+anladığımda
+
+32:45.220 --> 32:46.400
+8'in
+
+32:46.400 --> 32:46.940
+burada
+
+32:46.940 --> 32:47.680
+olmadığını
+
+32:47.680 --> 32:48.300
+anlayacağım
+
+32:48.300 --> 32:51.060
+dolayısıyla
+
+32:51.060 --> 32:52.180
+böyle bir
+
+32:52.180 --> 32:52.660
+sorgulama
+
+32:52.660 --> 32:53.140
+yapmanız
+
+32:53.140 --> 32:53.540
+gerekir
+
+32:53.540 --> 32:54.420
+binary search'ın
+
+32:54.420 --> 32:55.040
+kendisi
+
+32:55.040 --> 32:55.820
+sadece
+
+32:55.820 --> 32:57.200
+var mı yok mu
+
+32:57.200 --> 32:57.820
+anlamında
+
+32:57.820 --> 32:59.620
+boolean değer
+
+32:59.620 --> 33:00.220
+döndürüyor
+
+33:00.220 --> 33:01.860
+bir grup
+
+33:01.860 --> 33:02.480
+algoritma
+
+33:02.480 --> 33:03.100
+daha var
+
+33:03.100 --> 33:05.480
+onları da
+
+33:05.480 --> 33:06.160
+bir göstermek
+
+33:06.160 --> 33:06.540
+istiyorum
+
+33:06.540 --> 33:07.240
+sonra konuyu
+
+33:07.240 --> 33:07.980
+değiştireceğim
+
+33:07.980 --> 33:09.980
+arkadaşlar
+
+33:09.980 --> 33:10.420
+bakın
+
+33:10.420 --> 33:10.820
+minimum
+
+33:10.820 --> 33:11.360
+maximum
+
+33:11.360 --> 33:12.140
+operations
+
+33:12.140 --> 33:13.580
+daha önce
+
+33:13.580 --> 33:14.080
+bir ikisine
+
+33:14.080 --> 33:15.060
+bakmıştık
+
+33:15.060 --> 33:15.900
+özellikle
+
+33:15.900 --> 33:16.780
+göstermediğim
+
+33:16.780 --> 33:17.840
+diğer fonksiyonlara
+
+33:17.840 --> 33:18.140
+da
+
+33:18.140 --> 33:19.100
+değineceğim
+
+33:19.100 --> 33:21.420
+şimdi
+
+33:21.420 --> 33:22.760
+önce
+
+33:22.760 --> 33:23.120
+max
+
+33:23.120 --> 33:23.860
+ile başlayalım
+
+33:23.860 --> 33:24.600
+max
+
+33:24.600 --> 33:25.320
+range
+
+33:25.320 --> 33:25.640
+alan
+
+33:25.640 --> 33:27.280
+bir fonksiyon
+
+33:27.280 --> 33:27.600
+değil
+
+33:27.600 --> 33:28.700
+range
+
+33:28.700 --> 33:29.540
+alan fonksiyon
+
+33:29.540 --> 33:29.960
+max
+
+33:29.960 --> 33:30.660
+element
+
+33:30.660 --> 33:32.060
+max fonksiyonunun
+
+33:32.060 --> 33:33.160
+iki overload'u var
+
+33:33.160 --> 33:34.880
+ya iki değerden
+
+33:34.880 --> 33:35.860
+büyüğünü
+
+33:35.860 --> 33:36.680
+bulacak
+
+33:36.680 --> 33:38.700
+ya da
+
+33:38.700 --> 33:40.180
+initializer liste alacak
+
+33:40.180 --> 33:42.240
+algoritm
+
+33:42.240 --> 33:43.280
+başlık dosyasında
+
+33:43.280 --> 33:44.200
+örneğin
+
+33:44.200 --> 33:44.600
+yalnız
+
+33:44.600 --> 33:45.780
+max'a dikkat
+
+33:45.780 --> 33:47.020
+max'ın
+
+33:47.020 --> 33:47.560
+geri dönüş
+
+33:47.560 --> 33:47.920
+değeri
+
+33:47.920 --> 33:48.940
+referans
+
+33:48.940 --> 33:50.420
+yani
+
+33:50.420 --> 33:51.340
+örneğin
+
+33:51.340 --> 33:52.460
+int x eşittir
+
+33:52.460 --> 33:52.880
+10
+
+33:52.880 --> 33:54.500
+y eşittir
+
+33:54.500 --> 33:55.140
+20
+
+33:55.140 --> 33:58.460
+max
+
+33:58.460 --> 34:00.560
+x
+
+34:00.560 --> 34:00.660
+y
+
+34:00.660 --> 34:05.560
+şöyle yazarsanız
+
+34:05.560 --> 34:06.100
+auto
+
+34:06.100 --> 34:09.000
+int
+
+34:09.000 --> 34:10.260
+ref
+
+34:10.260 --> 34:12.280
+auto
+
+34:12.280 --> 34:13.240
+int ref ne demek
+
+34:13.240 --> 34:13.840
+auto ref
+
+34:13.840 --> 34:14.180
+re
+
+34:14.180 --> 34:16.620
+eşittir
+
+34:16.620 --> 34:17.560
+max'ın
+
+34:17.560 --> 34:18.440
+geri dönüş
+
+34:18.440 --> 34:18.800
+değeri
+
+34:18.800 --> 34:22.000
+geri dönüş
+
+34:22.000 --> 34:22.420
+değeri
+
+34:22.420 --> 34:23.500
+referans
+
+34:23.500 --> 34:24.240
+dolayısıyla
+
+34:24.240 --> 34:25.440
+şu anda
+
+34:25.440 --> 34:26.400
+re demek
+
+34:26.400 --> 34:27.360
+y demek
+
+34:27.360 --> 34:28.340
+ama tabi
+
+34:28.340 --> 34:28.960
+referans
+
+34:28.960 --> 34:29.380
+değişkende
+
+34:29.380 --> 34:30.200
+tutmak zorunda
+
+34:30.200 --> 34:30.620
+değilim
+
+34:30.620 --> 34:31.080
+şöyle de
+
+34:31.080 --> 34:32.200
+yazabilirim
+
+34:32.200 --> 34:33.840
+ya da doğrudan
+
+34:33.840 --> 34:34.720
+bir değişkende
+
+34:34.720 --> 34:35.600
+saklamadan
+
+34:35.600 --> 34:37.280
+c out
+
+34:37.280 --> 34:38.240
+max
+
+34:38.240 --> 34:40.980
+ya da belki
+
+34:40.980 --> 34:41.660
+bir fonksiyona
+
+34:41.660 --> 34:42.300
+göndereceğim
+
+34:42.300 --> 34:45.480
+tabu fonksiyonların
+
+34:45.480 --> 34:45.840
+hepsi
+
+34:45.840 --> 34:46.140
+const
+
+34:46.140 --> 34:46.360
+x
+
+34:46.360 --> 34:46.600
+pr
+
+34:46.600 --> 34:50.420
+eğer şöyle
+
+34:50.420 --> 34:51.260
+yazsaydım
+
+34:51.260 --> 34:53.200
+initializer list
+
+34:53.200 --> 34:54.620
+mesela bakalım
+
+34:54.620 --> 35:02.560
+p eşittir
+
+35:02.560 --> 35:03.720
+90
+
+35:03.720 --> 35:05.220
+9
+
+35:05.220 --> 35:07.620
+m eşittir
+
+35:07.620 --> 35:09.720
+23
+
+35:09.720 --> 35:13.060
+int
+
+35:13.060 --> 35:19.000
+y eşittir
+
+35:19.000 --> 35:20.320
+max
+
+35:20.320 --> 35:23.340
+x
+
+35:23.340 --> 35:24.000
+y
+
+35:24.000 --> 35:25.100
+z
+
+35:25.100 --> 35:26.940
+t
+
+35:26.940 --> 35:27.880
+m
+
+35:27.880 --> 35:43.820
+bakın
+
+35:43.820 --> 35:45.060
+en büyük değer
+
+35:45.060 --> 35:45.640
+45
+
+35:45.640 --> 35:46.020
+imiş
+
+35:46.020 --> 35:46.420
+şunu
+
+35:46.420 --> 35:47.220
+91
+
+35:47.220 --> 35:47.820
+yapalım
+
+35:47.820 --> 35:52.760
+91
+
+35:52.760 --> 35:53.840
+max
+
+35:53.840 --> 35:55.000
+gibi
+
+35:55.000 --> 35:55.720
+benzer
+
+35:55.720 --> 35:56.040
+şekilde
+
+35:56.040 --> 35:56.340
+min
+
+35:56.340 --> 35:56.860
+fonksiyon
+
+35:56.860 --> 35:57.300
+da var
+
+35:57.300 --> 35:57.840
+onu
+
+35:57.840 --> 35:58.740
+örnekte
+
+35:58.740 --> 35:59.460
+göstermeyim
+
+35:59.460 --> 36:00.040
+max yerine
+
+36:00.040 --> 36:00.600
+min koyun
+
+36:00.600 --> 36:00.840
+işte
+
+36:00.840 --> 36:01.440
+her iki
+
+36:01.440 --> 36:02.140
+overloadu
+
+36:02.140 --> 36:02.520
+da var
+
+36:02.520 --> 36:03.240
+yine
+
+36:03.240 --> 36:11.020
+max
+
+36:11.020 --> 36:11.660
+elementi
+
+36:11.660 --> 36:12.000
+ise
+
+36:12.000 --> 36:12.840
+iteratör
+
+36:12.840 --> 36:13.500
+parametreli
+
+36:13.500 --> 36:14.120
+algoritma
+
+36:14.120 --> 36:15.160
+iteratör
+
+36:15.160 --> 36:15.760
+döndürüyor
+
+36:15.760 --> 36:17.520
+yani örneğin
+
+36:17.520 --> 36:19.160
+arkadaşlar
+
+36:19.160 --> 36:21.420
+vektör
+
+36:21.420 --> 36:22.240
+ya da
+
+36:22.240 --> 36:22.780
+herhangi bir
+
+36:22.780 --> 36:23.340
+konteyner
+
+36:23.340 --> 36:24.100
+vektör
+
+36:24.100 --> 36:26.120
+string
+
+36:26.120 --> 36:26.760
+açılımı
+
+36:26.760 --> 36:28.200
+svec
+
+36:28.200 --> 36:41.840
+3
+
+36:41.840 --> 36:42.520
+algoritmayı da
+
+36:42.520 --> 36:43.100
+bunun üstünden
+
+36:43.100 --> 36:43.860
+gösterelim
+
+36:43.860 --> 36:45.700
+arkadaşlar
+
+36:45.700 --> 36:46.300
+max
+
+36:46.300 --> 36:46.840
+element
+
+36:46.840 --> 36:51.040
+svec
+
+36:51.040 --> 36:51.400
+begin
+
+36:51.400 --> 36:52.540
+svec
+
+36:52.540 --> 36:52.920
+end
+
+36:52.920 --> 36:56.820
+default
+
+36:56.820 --> 36:57.500
+yine
+
+36:57.500 --> 36:58.340
+l'si
+
+36:58.340 --> 36:58.880
+kullanıyor
+
+36:58.880 --> 36:59.900
+ama
+
+36:59.900 --> 37:00.220
+kendi
+
+37:00.220 --> 37:00.980
+karşılaştırma
+
+37:00.980 --> 37:01.580
+kriterim
+
+37:01.580 --> 37:02.500
+varsa
+
+37:02.500 --> 37:02.860
+kendi
+
+37:02.860 --> 37:03.580
+karşılaştırma
+
+37:03.580 --> 37:04.200
+kriterimi
+
+37:04.200 --> 37:04.940
+yine
+
+37:04.940 --> 37:05.240
+max
+
+37:05.240 --> 37:05.780
+elementin
+
+37:05.780 --> 37:05.960
+3.
+
+37:06.140 --> 37:07.020
+parametresine
+
+37:07.020 --> 37:07.820
+binary
+
+37:07.820 --> 37:08.660
+predikat olarak
+
+37:08.660 --> 37:09.460
+geçebilirim
+
+37:09.460 --> 37:10.400
+auto
+
+37:10.400 --> 37:11.400
+iter
+
+37:11.400 --> 37:12.680
+ya da
+
+37:12.680 --> 37:13.400
+bir değişkende
+
+37:13.400 --> 37:14.000
+tutmak
+
+37:14.000 --> 37:14.860
+ona yarışmak
+
+37:14.860 --> 37:15.700
+istemiyorsanız
+
+37:15.700 --> 37:16.080
+sadece
+
+37:16.080 --> 37:16.660
+değeriyle
+
+37:16.660 --> 37:17.680
+ilgileniyorsanız
+
+37:17.680 --> 37:19.140
+doğrudan
+
+37:19.140 --> 37:20.380
+geri dönüş
+
+37:20.380 --> 37:20.940
+değeri olan
+
+37:20.940 --> 37:22.300
+iteratörü
+
+37:22.300 --> 37:23.500
+bir referans
+
+37:23.500 --> 37:24.300
+edebilirsiniz
+
+37:24.300 --> 37:29.920
+zeliha
+
+37:29.920 --> 37:30.680
+min
+
+37:30.680 --> 37:31.220
+element
+
+37:31.220 --> 37:34.580
+range'deki
+
+37:34.580 --> 37:34.960
+en küçük
+
+37:34.960 --> 37:35.360
+öğeyi
+
+37:35.360 --> 37:35.920
+döndürüyor
+
+37:35.920 --> 37:39.700
+hatta
+
+37:39.700 --> 37:40.120
+bakın
+
+37:40.120 --> 37:40.960
+daha
+
+37:40.960 --> 37:41.620
+eğlenceli
+
+37:41.620 --> 37:41.780
+hale
+
+37:41.780 --> 37:42.220
+getirelim
+
+37:42.220 --> 37:42.760
+vektörün
+
+37:42.760 --> 37:43.040
+date
+
+37:43.040 --> 37:43.640
+açılımı
+
+37:43.640 --> 37:46.220
+d-back
+
+37:46.220 --> 37:48.800
+date
+
+37:48.800 --> 37:49.160
+başlık
+
+37:49.160 --> 37:49.740
+postasını
+
+37:49.740 --> 37:50.040
+dahil
+
+37:50.040 --> 37:50.440
+edelim
+
+37:50.440 --> 37:56.940
+d-back
+
+37:56.940 --> 37:59.780
+date'in
+
+37:59.780 --> 38:00.440
+randomı
+
+38:00.440 --> 38:05.900
+max
+
+38:05.900 --> 38:06.420
+element
+
+38:06.420 --> 38:06.960
+d-back
+
+38:06.960 --> 38:07.400
+begin
+
+38:07.400 --> 38:09.280
+d-back
+
+38:09.280 --> 38:09.740
+end
+
+38:09.740 --> 38:12.960
+min
+
+38:12.960 --> 38:13.400
+element
+
+38:13.400 --> 38:14.300
+d-back
+
+38:14.300 --> 38:14.780
+begin
+
+38:14.780 --> 38:16.460
+d-back
+
+38:16.460 --> 38:16.780
+end
+
+38:16.780 --> 38:19.600
+date
+
+38:19.600 --> 38:20.480
+sınıfı
+
+38:20.480 --> 38:20.960
+küçüktür
+
+38:20.960 --> 38:21.580
+operatörünü
+
+38:21.580 --> 38:21.980
+overload
+
+38:21.980 --> 38:22.420
+ettiği
+
+38:22.420 --> 38:22.780
+için
+
+38:22.780 --> 38:23.860
+bir problem
+
+38:23.860 --> 38:24.120
+yok
+
+38:24.120 --> 38:24.680
+en büyüğü
+
+38:24.680 --> 38:25.080
+19
+
+38:25.080 --> 38:25.560
+ağustos
+
+38:25.560 --> 38:26.120
+2020
+
+38:26.120 --> 38:26.660
+imiş
+
+38:26.660 --> 38:27.560
+en küçük
+
+38:27.560 --> 38:28.160
+tarihte
+
+38:28.160 --> 38:29.200
+25
+
+38:29.200 --> 38:29.720
+Aralık
+
+38:29.720 --> 38:30.720
+1950
+
+38:30.720 --> 38:31.240
+imiş
+
+38:31.240 --> 38:32.380
+min
+
+38:32.380 --> 38:32.660
+max
+
+38:32.660 --> 38:33.200
+element
+
+38:33.200 --> 38:33.760
+pair
+
+38:33.760 --> 38:34.440
+döndürüyor
+
+38:34.440 --> 38:36.060
+iteratör
+
+38:36.060 --> 38:36.620
+pair'i
+
+38:36.620 --> 38:37.200
+döndürüyor
+
+38:37.200 --> 38:38.720
+yani her ikisini de
+
+38:38.720 --> 38:39.260
+elde etmek
+
+38:39.260 --> 38:40.040
+istiyorsam
+
+38:40.040 --> 38:41.280
+o zaman
+
+38:41.280 --> 38:42.820
+min
+
+38:42.820 --> 38:43.940
+max
+
+38:43.940 --> 38:44.980
+element
+
+38:44.980 --> 38:49.460
+yine
+
+38:49.460 --> 38:50.700
+d-back
+
+38:50.700 --> 38:51.140
+begin
+
+38:51.140 --> 38:52.600
+bu arada
+
+38:52.600 --> 38:53.320
+vektör olması
+
+38:53.320 --> 38:53.720
+şartlı
+
+38:53.720 --> 38:54.320
+poverty
+
+38:54.320 --> 38:54.720
+iteratör
+
+38:54.720 --> 38:55.640
+kategorisinde
+
+38:55.640 --> 38:56.300
+d-back
+
+38:56.300 --> 38:56.740
+end
+
+38:56.740 --> 38:59.780
+arkadaşlar
+
+38:59.780 --> 39:01.360
+hatta burada
+
+39:01.360 --> 39:03.880
+izleyin
+
+39:03.880 --> 39:04.460
+ilginç bir şey
+
+39:04.460 --> 39:05.020
+yapalım
+
+39:05.020 --> 39:10.100
+date
+
+39:10.100 --> 39:10.700
+sınıfının
+
+39:10.700 --> 39:11.620
+bakalım
+
+39:11.620 --> 39:11.920
+üye
+
+39:11.920 --> 39:12.940
+fonksiyonlarına
+
+39:12.940 --> 39:14.760
+date
+
+39:14.760 --> 39:15.860
+my date
+
+39:15.860 --> 39:19.320
+my date
+
+39:19.320 --> 39:22.460
+first string
+
+39:22.460 --> 39:23.560
+implement edilmemiş
+
+39:23.560 --> 39:24.740
+implement edilseydi
+
+39:24.740 --> 39:26.620
+daha eğlenceli
+
+39:26.620 --> 39:27.120
+olurdu
+
+39:27.120 --> 39:28.480
+arkadaşlar
+
+39:28.480 --> 39:30.340
+çünkü örneğin
+
+39:30.340 --> 39:31.660
+stringin büyüklüğüne göre
+
+39:31.660 --> 39:33.560
+yani tarihi yazıya dönüştürüp
+
+39:33.560 --> 39:34.840
+o yazının büyüklüğüne göre
+
+39:34.840 --> 39:36.840
+seçecektim
+
+39:36.840 --> 39:37.380
+ama şimdi
+
+39:37.380 --> 39:38.580
+l'si kullanalım
+
+39:38.580 --> 39:39.960
+auto
+
+39:39.960 --> 39:41.220
+birazdan
+
+39:41.220 --> 39:42.080
+mercek altına
+
+39:42.080 --> 39:42.960
+alacağımız range
+
+39:42.960 --> 39:43.720
+bass for loop'u
+
+39:43.720 --> 39:44.360
+kullanıyorum
+
+39:44.360 --> 39:45.660
+auto
+
+39:45.660 --> 39:47.060
+min
+
+39:47.060 --> 39:48.960
+i min
+
+39:48.960 --> 39:49.760
+iter min
+
+39:49.760 --> 39:51.520
+iter
+
+39:51.520 --> 39:52.620
+max
+
+39:52.620 --> 39:56.720
+eşittir
+
+39:56.720 --> 39:59.120
+şimdi artık
+
+39:59.120 --> 40:00.660
+bu iteratör konumundaki
+
+40:00.660 --> 40:01.340
+nesneleri
+
+40:01.340 --> 40:02.660
+erişeyim
+
+40:02.660 --> 40:03.480
+sea alt
+
+40:03.480 --> 40:05.200
+yıldız
+
+40:05.200 --> 40:05.960
+i min
+
+40:05.960 --> 40:08.540
+new life
+
+40:08.540 --> 40:10.700
+yıldız
+
+40:10.700 --> 40:13.640
+emax
+
+40:13.640 --> 40:18.060
+en küçük ve en büyük tarihi
+
+40:18.060 --> 40:19.700
+yazdırdım
+
+40:19.700 --> 40:26.080
+18 haziran
+
+40:26.080 --> 40:26.920
+1950
+
+40:26.920 --> 40:28.240
+25 hekim
+
+40:28.240 --> 40:29.620
+2020
+
+40:29.620 --> 40:31.780
+yine bu grupta
+
+40:31.780 --> 40:34.080
+c++17 ile
+
+40:34.080 --> 40:34.560
+eklene
+
+40:34.560 --> 40:36.360
+clamp fonksiyonu var
+
+40:36.360 --> 40:38.680
+elektronikçilerin
+
+40:38.680 --> 40:40.180
+bildiği bir işlem
+
+40:40.180 --> 40:40.480
+değil mi
+
+40:40.480 --> 40:40.840
+clamp
+
+40:40.840 --> 40:42.420
+clamp ne yapıyor
+
+40:42.420 --> 40:43.580
+arkadaşlar
+
+40:43.580 --> 40:46.420
+elinizde bir değer var
+
+40:46.420 --> 40:49.160
+bir de bir
+
+40:49.160 --> 40:50.120
+aralık var
+
+40:50.120 --> 40:51.960
+örneğin
+
+40:51.960 --> 40:52.980
+aralığımız
+
+40:52.980 --> 40:53.820
+4
+
+40:53.820 --> 40:55.960
+90 olsun
+
+40:55.960 --> 40:57.620
+elimizde bir de
+
+40:57.620 --> 40:58.280
+değer var
+
+40:58.280 --> 41:00.780
+eğer değer bu aralıkta
+
+41:00.780 --> 41:01.400
+kalıyorsa
+
+41:01.400 --> 41:02.860
+değerin kendisini
+
+41:02.860 --> 41:03.520
+döndürüyor
+
+41:03.520 --> 41:05.920
+minden küçükse
+
+41:05.920 --> 41:07.460
+mini döndürüyor
+
+41:07.460 --> 41:09.280
+max'dan büyükse
+
+41:09.280 --> 41:10.480
+max'ı döndürüyor
+
+41:10.480 --> 41:12.860
+yani değeri
+
+41:12.860 --> 41:14.060
+bu aralığa
+
+41:14.060 --> 41:15.100
+hapsediyor
+
+41:15.100 --> 41:16.240
+bu aralığa
+
+41:16.240 --> 41:16.900
+sokuyor
+
+41:16.900 --> 41:18.220
+böylece
+
+41:18.220 --> 41:19.340
+o aralık dışındaki
+
+41:19.340 --> 41:19.960
+değerleri
+
+41:19.960 --> 41:21.080
+normalize edip
+
+41:21.080 --> 41:22.480
+minimum değeri
+
+41:22.480 --> 41:23.600
+maksimum değeri
+
+41:23.600 --> 41:24.260
+çekiyorsunuz
+
+41:24.260 --> 41:25.280
+ama aralık içindeki
+
+41:25.280 --> 41:25.960
+değerler
+
+41:25.960 --> 41:27.120
+aynı şekilde
+
+41:27.120 --> 41:28.060
+kalıyor
+
+41:28.060 --> 41:29.240
+bakın çok basit
+
+41:29.240 --> 41:30.060
+bir fonksiyon ama
+
+41:30.060 --> 41:30.920
+bazı yerlerde
+
+41:30.920 --> 41:31.720
+çok işe yarıyor
+
+41:31.720 --> 41:32.220
+clamp
+
+41:32.220 --> 41:33.680
+izleyin
+
+41:33.680 --> 41:35.260
+şuradan bulalım
+
+41:35.260 --> 41:37.900
+implementasyonunu
+
+41:37.900 --> 41:38.560
+göstereceğim
+
+41:38.560 --> 41:39.540
+yazmakla zaman
+
+41:39.540 --> 41:40.420
+kaybetmeyelim
+
+41:40.420 --> 41:41.440
+evet
+
+41:41.440 --> 41:44.000
+arkadaşlar bakın şimdi
+
+41:44.000 --> 41:48.740
+ne kadar güzel
+
+41:48.740 --> 41:49.660
+implement etmiş
+
+41:49.660 --> 41:54.240
+şimdi bu
+
+41:54.240 --> 41:56.100
+cpp reference'daki
+
+41:56.100 --> 41:57.680
+implementasyon
+
+41:57.680 --> 42:00.020
+iki tane
+
+42:00.020 --> 42:00.900
+overload'u var
+
+42:00.900 --> 42:02.120
+bir tanesi
+
+42:02.120 --> 42:03.340
+less'i kullanıyor
+
+42:03.340 --> 42:04.760
+arkadaşlar
+
+42:04.760 --> 42:05.840
+ama
+
+42:05.840 --> 42:07.240
+diğerini
+
+42:07.240 --> 42:09.000
+implement etmiş
+
+42:09.000 --> 42:11.700
+default overload'da
+
+42:11.700 --> 42:13.220
+diğerini çağırırken
+
+42:13.220 --> 42:14.580
+less function'ını
+
+42:14.580 --> 42:16.560
+argüman olarak göndermiş
+
+42:16.560 --> 42:17.900
+less function object'ini
+
+42:17.900 --> 42:18.700
+dolayısıyla
+
+42:18.700 --> 42:20.580
+ikinciye bakmamız
+
+42:20.580 --> 42:21.040
+gerekiyor
+
+42:21.040 --> 42:21.420
+şimdi
+
+42:21.420 --> 42:22.900
+ikincinin
+
+42:22.900 --> 42:23.900
+implementasyonu
+
+42:23.900 --> 42:24.220
+bu
+
+42:24.220 --> 42:28.600
+onu da koyalım
+
+42:28.600 --> 42:29.700
+zaten
+
+42:29.700 --> 42:30.980
+ne dediğimi
+
+42:30.980 --> 42:32.340
+şimdi daha iyi anlayacaksınız
+
+42:32.340 --> 42:33.620
+bakın şimdi
+
+42:33.620 --> 42:34.640
+v
+
+42:34.640 --> 42:36.900
+v value
+
+42:36.900 --> 42:37.520
+low
+
+42:37.520 --> 42:37.920
+low
+
+42:37.920 --> 42:40.140
+birinci parametre
+
+42:40.140 --> 42:40.560
+value
+
+42:40.560 --> 42:41.660
+ikinci parametre
+
+42:41.660 --> 42:42.020
+low
+
+42:42.020 --> 42:43.100
+aralığın düşük değeri
+
+42:43.100 --> 42:44.080
+üçüncü parametre
+
+42:44.080 --> 42:45.740
+aralığın
+
+42:45.740 --> 42:46.980
+yüksek değeri
+
+42:46.980 --> 42:48.020
+şimdi
+
+42:48.020 --> 42:48.820
+comp yerine
+
+42:48.820 --> 42:49.780
+less'in olduğunu
+
+42:49.780 --> 42:50.620
+düşünün
+
+42:50.620 --> 42:52.900
+value
+
+42:52.900 --> 42:53.440
+low'dan
+
+42:53.440 --> 42:54.240
+küçükse
+
+42:54.240 --> 42:55.440
+ifadenin
+
+42:55.440 --> 42:55.720
+değeri
+
+42:55.720 --> 42:56.040
+low
+
+42:56.040 --> 42:57.260
+fernler
+
+42:57.260 --> 42:58.040
+operatörün
+
+42:58.040 --> 42:58.940
+herkes tarafından
+
+42:58.940 --> 42:59.400
+bilinini
+
+42:59.400 --> 43:00.060
+varsayıyorum
+
+43:00.060 --> 43:01.780
+aksi halde
+
+43:01.780 --> 43:05.500
+high value'dan
+
+43:05.500 --> 43:07.180
+küçükse
+
+43:07.180 --> 43:08.340
+arkadaşlar
+
+43:08.340 --> 43:10.460
+o zaman
+
+43:10.460 --> 43:11.380
+high
+
+43:11.380 --> 43:13.160
+aksi halde
+
+43:13.160 --> 43:13.800
+value'nun
+
+43:13.800 --> 43:14.640
+kendisi
+
+43:14.640 --> 43:16.060
+hemen
+
+43:16.060 --> 43:17.480
+clamp için bir örnek
+
+43:17.480 --> 43:18.660
+kod yazalım
+
+43:18.660 --> 43:20.860
+iostream
+
+43:20.860 --> 43:25.420
+bir vektör
+
+43:25.420 --> 43:26.180
+oluşturalım
+
+43:26.180 --> 43:28.600
+vektör
+
+43:28.600 --> 43:31.160
+int
+
+43:31.160 --> 43:33.200
+ivrek
+
+43:33.200 --> 43:35.720
+yüz
+
+43:35.720 --> 43:50.000
+0.99
+
+43:50.000 --> 43:52.080
+değerleri
+
+43:52.080 --> 43:53.420
+vereceğim
+
+43:53.420 --> 43:55.180
+generate
+
+43:55.180 --> 43:56.160
+algoritması
+
+43:56.160 --> 43:56.440
+ile
+
+43:56.440 --> 44:01.000
+generate
+
+44:01.000 --> 44:03.760
+ivrek
+
+44:03.760 --> 44:04.240
+begin
+
+44:04.240 --> 44:06.920
+ivrek
+
+44:06.920 --> 44:07.420
+end
+
+44:07.420 --> 44:09.640
+iron
+
+44:09.640 --> 44:12.380
+0.99
+
+44:12.380 --> 44:22.100
+şimdi buradaki
+
+44:22.100 --> 44:22.700
+öğeleri
+
+44:22.700 --> 44:24.560
+yazdırıyorum
+
+44:24.560 --> 44:27.960
+kırk tane olsun
+
+44:27.960 --> 44:31.840
+şeye print
+
+44:31.840 --> 44:41.720
+ivrek
+
+44:41.720 --> 44:47.360
+şimdi
+
+44:47.360 --> 44:48.860
+dikkat
+
+44:48.860 --> 44:50.500
+int
+
+44:50.500 --> 44:51.420
+low
+
+44:51.420 --> 44:53.020
+int
+
+44:53.020 --> 44:53.900
+high
+
+44:53.900 --> 44:59.220
+aralık
+
+44:59.220 --> 44:59.840
+değerlerini
+
+44:59.840 --> 45:00.300
+girin
+
+45:00.300 --> 45:18.480
+tamam
+
+45:18.480 --> 45:20.300
+arkadaşlar
+
+45:20.300 --> 45:20.900
+şimdi
+
+45:20.900 --> 45:21.480
+clamp
+
+45:21.480 --> 45:22.220
+fonksiyonunun
+
+45:22.220 --> 45:22.800
+geri dönüş
+
+45:22.800 --> 45:23.420
+değerini
+
+45:23.420 --> 45:24.880
+ne yapacağım
+
+45:24.880 --> 45:26.260
+tekrar
+
+45:26.260 --> 45:26.780
+vektöre
+
+45:26.780 --> 45:27.200
+yazacağım
+
+45:27.200 --> 45:27.620
+bunun için
+
+45:27.620 --> 45:28.160
+transform
+
+45:28.160 --> 45:28.920
+algoritmasını
+
+45:28.920 --> 45:29.540
+kullanalım
+
+45:29.540 --> 45:30.500
+transform
+
+45:30.500 --> 45:32.540
+ivrek
+
+45:32.540 --> 45:33.000
+begin
+
+45:33.000 --> 45:36.120
+ivrek
+
+45:36.120 --> 45:36.580
+end
+
+45:36.580 --> 45:39.620
+arkadaşlar
+
+45:39.620 --> 45:44.960
+low
+
+45:44.960 --> 45:45.720
+high
+
+45:45.720 --> 45:46.600
+değerlerini
+
+45:46.600 --> 45:47.000
+capture
+
+45:47.000 --> 45:47.560
+ediyorum
+
+45:47.560 --> 45:49.580
+int
+
+45:49.580 --> 45:50.220
+x
+
+45:50.220 --> 45:52.820
+return
+
+45:52.820 --> 45:54.820
+st
+
+45:54.820 --> 45:55.000
+st
+
+45:55.000 --> 45:55.620
+clank
+
+45:55.620 --> 45:56.820
+st
+
+45:56.820 --> 45:57.640
+clank
+
+45:57.640 --> 46:00.640
+önce
+
+46:00.640 --> 46:02.400
+değer
+
+46:02.400 --> 46:03.720
+yani
+
+46:03.720 --> 46:04.200
+x
+
+46:04.200 --> 46:05.540
+sonra
+
+46:05.540 --> 46:05.980
+low
+
+46:05.980 --> 46:07.440
+sonra
+
+46:07.440 --> 46:07.820
+high
+
+46:07.820 --> 46:13.240
+planda
+
+46:13.240 --> 46:14.240
+ifadesi
+
+46:14.240 --> 46:17.280
+tekrar
+
+46:17.280 --> 46:17.880
+üçüncü
+
+46:17.880 --> 46:18.480
+parametreyi
+
+46:18.480 --> 46:19.040
+almamışım
+
+46:19.040 --> 46:19.400
+ivrek
+
+46:19.400 --> 46:19.820
+begin
+
+46:19.820 --> 46:22.120
+çok şık
+
+46:22.120 --> 46:22.500
+bir kod
+
+46:22.500 --> 46:22.820
+oldu
+
+46:22.820 --> 46:24.420
+transfer
+
+46:24.420 --> 46:24.800
+herkes
+
+46:24.800 --> 46:25.280
+hatırlıyor
+
+46:25.280 --> 46:25.680
+değil mi
+
+46:25.680 --> 46:27.020
+böyle durumlarda
+
+46:27.020 --> 46:28.540
+ben ham döngü
+
+46:28.540 --> 46:28.840
+deyimi
+
+46:28.840 --> 46:29.380
+kesinlikle
+
+46:29.380 --> 46:30.120
+kullanmıyorum
+
+46:30.120 --> 46:31.020
+isimlendirilmiş
+
+46:31.020 --> 46:31.900
+fonksiyon her zaman
+
+46:31.900 --> 46:32.440
+daha iyi
+
+46:32.440 --> 46:33.560
+ivrek
+
+46:33.560 --> 46:33.940
+bag'in
+
+46:33.940 --> 46:34.480
+bu range
+
+46:34.480 --> 46:34.740
+teki
+
+46:34.740 --> 46:35.320
+öeleri
+
+46:35.320 --> 46:38.980
+şu operasyondan
+
+46:38.980 --> 46:39.600
+geçir
+
+46:39.600 --> 46:40.540
+tekrar
+
+46:40.540 --> 46:41.000
+aynı
+
+46:41.000 --> 46:41.400
+range
+
+46:41.400 --> 46:42.340
+yaz
+
+46:42.340 --> 46:43.940
+az önce
+
+46:43.940 --> 46:44.480
+jprint
+
+46:44.480 --> 46:45.380
+yazdırmıştık
+
+46:45.380 --> 46:46.180
+şimdi jprint
+
+46:46.180 --> 46:46.640
+tekrar
+
+46:46.640 --> 46:47.500
+yazdıralım
+
+46:47.500 --> 46:48.720
+clamp'in
+
+46:48.720 --> 46:49.740
+ne yaptığını
+
+46:49.740 --> 46:50.260
+daha iyi
+
+46:50.260 --> 46:50.940
+görmüş
+
+46:50.940 --> 46:51.500
+oluruz
+
+46:51.500 --> 46:56.300
+aralık değerlerine
+
+46:56.300 --> 46:56.780
+girin
+
+46:56.780 --> 46:57.420
+mesela
+
+46:57.420 --> 46:58.220
+arkadaşlar
+
+46:58.220 --> 46:58.880
+40
+
+46:58.880 --> 47:00.000
+70
+
+47:00.000 --> 47:02.680
+76'yı
+
+47:02.680 --> 47:03.180
+70'e
+
+47:03.180 --> 47:03.760
+çekecek
+
+47:03.760 --> 47:04.720
+79'u
+
+47:04.720 --> 47:05.200
+70'e
+
+47:05.200 --> 47:05.820
+çekecek
+
+47:05.820 --> 47:07.160
+32'yi
+
+47:07.160 --> 47:07.520
+40'a
+
+47:07.520 --> 47:07.980
+çekecek
+
+47:07.980 --> 47:08.460
+6'yı
+
+47:08.460 --> 47:08.840
+40'a
+
+47:08.840 --> 47:09.220
+çekecek
+
+47:09.220 --> 47:09.440
+ama
+
+47:09.440 --> 47:10.320
+49 olduğu
+
+47:10.320 --> 47:10.560
+gibi
+
+47:10.560 --> 47:11.160
+kalacak
+
+47:11.160 --> 47:13.700
+görüyorsunuz
+
+47:13.700 --> 47:14.060
+değil mi
+
+47:14.060 --> 47:15.120
+70
+
+47:15.120 --> 47:15.520
+70
+
+47:15.520 --> 47:15.880
+40
+
+47:15.880 --> 47:16.140
+40
+
+47:16.140 --> 47:16.680
+40
+
+47:16.680 --> 47:17.860
+aralığı
+
+47:17.860 --> 47:18.220
+biraz
+
+47:18.220 --> 47:19.280
+değiştirelim
+
+47:19.280 --> 47:20.060
+20
+
+47:20.060 --> 47:21.280
+80
+
+47:21.280 --> 47:23.220
+evet
+
+47:23.220 --> 47:25.600
+10 için
+
+47:25.600 --> 47:25.940
+10'u
+
+47:25.940 --> 47:27.220
+20 yaptı
+
+47:27.220 --> 47:28.180
+80
+
+47:28.180 --> 47:28.580
+bulalım
+
+47:28.580 --> 47:29.420
+86'yı
+
+47:29.420 --> 47:30.300
+80 yaptı
+
+47:30.300 --> 47:30.620
+clamp
+
+47:30.620 --> 47:31.920
+sinyal
+
+47:31.920 --> 47:32.240
+işleme
+
+47:32.240 --> 47:32.700
+vesaire
+
+47:32.700 --> 47:33.600
+tarafında da
+
+47:33.600 --> 47:34.040
+çok sık
+
+47:34.040 --> 47:34.520
+kullanılıyor
+
+47:34.520 --> 47:34.880
+değil mi
+
+47:34.880 --> 47:36.000
+evet
+
+47:36.000 --> 47:37.180
+bu gruba
+
+47:37.180 --> 47:37.860
+geri dönelim
+
+47:37.860 --> 47:38.340
+şimdi
+
+47:38.340 --> 47:39.420
+değinmediğimiz
+
+47:39.420 --> 47:40.140
+algoritma
+
+47:40.140 --> 47:41.760
+bu grupta
+
+47:41.760 --> 47:42.420
+kalmadı
+
+47:42.420 --> 47:43.680
+min
+
+47:43.680 --> 47:44.160
+max'ı
+
+47:44.160 --> 47:44.760
+gördük
+
+47:44.760 --> 47:46.000
+arkadaşlar
+
+47:46.000 --> 47:46.720
+clamp'i
+
+47:46.720 --> 47:47.320
+gördük
+
+47:47.320 --> 47:47.740
+min
+
+47:47.740 --> 47:48.100
+element
+
+47:48.100 --> 47:48.440
+max
+
+47:48.440 --> 47:48.920
+element
+
+47:48.920 --> 47:49.320
+min
+
+47:49.320 --> 47:49.680
+max
+
+47:49.680 --> 47:50.280
+element
+
+47:50.280 --> 47:51.200
+fonksiyonlarını
+
+47:51.200 --> 47:52.060
+gördük
+
+47:52.060 --> 47:53.040
+şimdi
+
+47:53.040 --> 47:53.540
+gelelim
+
+47:53.540 --> 47:54.520
+structure
+
+47:54.520 --> 47:55.520
+binding'e
+
+47:55.520 --> 47:56.940
+arkadaşlar
+
+47:56.940 --> 47:57.760
+C++
+
+47:57.760 --> 47:59.040
+17
+
+47:59.040 --> 47:59.860
+standardıyla
+
+47:59.860 --> 48:00.740
+direklendiğini
+
+48:00.740 --> 48:01.420
+defalarca
+
+48:01.420 --> 48:02.200
+söyledik
+
+48:02.200 --> 48:04.960
+structure
+
+48:04.960 --> 48:05.640
+binding
+
+48:05.640 --> 48:07.200
+birleşik
+
+48:07.200 --> 48:08.120
+bir türün
+
+48:08.120 --> 48:08.740
+öğelerine
+
+48:08.740 --> 48:09.720
+ayrıştırılması
+
+48:09.720 --> 48:10.220
+için
+
+48:10.220 --> 48:11.560
+arkadaşlar
+
+48:11.560 --> 48:12.580
+dilin
+
+48:12.580 --> 48:13.260
+sentaksına
+
+48:13.260 --> 48:14.000
+eklenen
+
+48:14.000 --> 48:14.780
+bir araç
+
+48:14.780 --> 48:15.160
+ama
+
+48:15.160 --> 48:15.900
+aslında
+
+48:15.900 --> 48:16.660
+arka planda
+
+48:16.660 --> 48:17.180
+ne oluyor
+
+48:17.180 --> 48:19.400
+buna zaman
+
+48:19.400 --> 48:19.900
+ayırmamın
+
+48:19.900 --> 48:20.360
+en önemli
+
+48:20.360 --> 48:21.440
+nedeni
+
+48:21.440 --> 48:22.280
+programcıların
+
+48:22.280 --> 48:22.980
+profesyonel
+
+48:22.980 --> 48:24.260
+tarafta da
+
+48:24.260 --> 48:24.800
+structure
+
+48:24.800 --> 48:25.760
+binding'i
+
+48:25.760 --> 48:26.640
+tipik olarak
+
+48:26.640 --> 48:27.080
+yanlış
+
+48:27.080 --> 48:27.800
+anlamaları
+
+48:27.800 --> 48:29.120
+arkadaşlar
+
+48:29.120 --> 48:30.560
+diyelim ki
+
+48:30.560 --> 48:32.040
+şöyle bir
+
+48:32.040 --> 48:32.900
+yapı
+
+48:32.900 --> 48:33.420
+nesnesi
+
+48:33.420 --> 48:33.720
+var
+
+48:33.720 --> 48:36.360
+C++
+
+48:36.360 --> 48:37.340
+sınıf
+
+48:37.340 --> 48:37.840
+structure
+
+48:37.840 --> 48:38.160
+data
+
+48:38.160 --> 48:40.280
+int
+
+48:40.280 --> 48:41.280
+a
+
+48:41.280 --> 48:42.000
+b
+
+48:42.000 --> 48:42.900
+c
+
+48:42.900 --> 48:45.380
+ve
+
+48:45.380 --> 48:46.780
+struct data
+
+48:46.780 --> 48:47.400
+döndüren
+
+48:47.400 --> 48:51.320
+data döndüren
+
+48:51.320 --> 48:52.820
+bu fonksiyonu var
+
+48:52.820 --> 48:56.200
+hatta kodu da yazalım
+
+48:56.200 --> 48:57.980
+return
+
+48:57.980 --> 49:00.440
+3
+
+49:00.440 --> 49:01.340
+6
+
+49:01.340 --> 49:02.260
+9
+
+49:02.260 --> 49:05.860
+şimdi bu fonksiyonu çağıralım
+
+49:05.860 --> 49:08.560
+ve önce bir sentaksımızı gösterelim
+
+49:08.560 --> 49:09.100
+auto
+
+49:09.100 --> 49:11.020
+x
+
+49:11.020 --> 49:11.260
+y
+
+49:11.260 --> 49:11.560
+z
+
+49:11.560 --> 49:14.380
+eşittir
+
+49:14.380 --> 49:15.100
+u
+
+49:15.100 --> 49:17.680
+1
+
+49:17.680 --> 49:19.320
+burada eşittir
+
+49:19.320 --> 49:20.280
+kullanmanız
+
+49:20.280 --> 49:22.520
+çoğunlukla tercih ediyoruz ama
+
+49:22.520 --> 49:24.560
+aslında mecburi değil
+
+49:24.560 --> 49:26.700
+ilk değer vermede
+
+49:26.700 --> 49:27.120
+yine
+
+49:27.120 --> 49:27.740
+direct
+
+49:27.740 --> 49:28.700
+initialization
+
+49:28.700 --> 49:31.040
+arkadaşlar
+
+49:31.040 --> 49:36.120
+direct list
+
+49:36.120 --> 49:36.920
+initialization
+
+49:36.920 --> 49:37.200
+da
+
+49:37.200 --> 49:38.220
+yazabilirim
+
+49:38.220 --> 49:39.140
+yani bunlar arasında
+
+49:39.140 --> 49:39.760
+anlamsal
+
+49:39.760 --> 49:40.100
+açıdan
+
+49:40.100 --> 49:40.820
+bir fark yok
+
+49:40.820 --> 49:42.760
+burada önemli olan
+
+49:42.760 --> 49:43.600
+şunu anlamanız
+
+49:43.600 --> 49:46.300
+burada oluşturulan
+
+49:46.300 --> 49:47.540
+değişkenler
+
+49:47.540 --> 49:48.660
+int türden
+
+49:48.660 --> 49:49.820
+değişkenler değil
+
+49:49.820 --> 49:51.600
+yani sanki
+
+49:51.600 --> 49:52.400
+koda bakan
+
+49:52.400 --> 49:53.360
+herkesin
+
+49:53.360 --> 49:54.740
+ilk aklına gelen
+
+49:54.740 --> 49:55.420
+şu oluyor
+
+49:55.420 --> 49:56.240
+herhalde diyor
+
+49:56.240 --> 49:57.400
+ben şöyle bir
+
+49:57.400 --> 49:58.500
+değişken
+
+49:58.500 --> 49:59.300
+tanımlıyorum
+
+49:59.300 --> 50:00.180
+int
+
+50:00.180 --> 50:00.980
+x diye bir
+
+50:00.980 --> 50:01.420
+değişken
+
+50:01.420 --> 50:02.120
+tanımladım
+
+50:02.120 --> 50:04.300
+fun'un geri döndürdüğü
+
+50:04.300 --> 50:05.180
+yapı nesnesinin
+
+50:05.180 --> 50:05.880
+elemanından
+
+50:05.880 --> 50:06.760
+değerini aldı
+
+50:06.760 --> 50:07.760
+hayır öyle değil
+
+50:07.760 --> 50:08.740
+bakın
+
+50:08.740 --> 50:09.340
+derleyicinin
+
+50:09.340 --> 50:10.080
+ürettiği kod
+
+50:10.080 --> 50:10.440
+şöyle
+
+50:10.440 --> 50:11.900
+aslında
+
+50:11.900 --> 50:13.740
+auto
+
+50:13.740 --> 50:17.520
+şöyle deyin
+
+50:17.520 --> 50:18.560
+compiler
+
+50:18.560 --> 50:19.760
+generated
+
+50:19.760 --> 50:20.720
+object
+
+50:20.720 --> 50:22.020
+eşittir
+
+50:22.020 --> 50:22.420
+foo
+
+50:22.420 --> 50:24.820
+yani
+
+50:24.820 --> 50:25.700
+derleyicinin
+
+50:25.700 --> 50:26.760
+ürettiği kodla
+
+50:26.760 --> 50:27.620
+oluşturulan
+
+50:27.620 --> 50:28.300
+nesne
+
+50:28.300 --> 50:30.040
+bu
+
+50:30.040 --> 50:30.660
+structured
+
+50:30.660 --> 50:31.300
+binding
+
+50:31.300 --> 50:32.260
+sentaksında
+
+50:32.260 --> 50:33.100
+virgüllerle
+
+50:33.100 --> 50:33.740
+ayrılan
+
+50:33.740 --> 50:35.060
+değişkenler
+
+50:35.060 --> 50:35.620
+türünden
+
+50:35.620 --> 50:36.080
+değil
+
+50:36.080 --> 50:38.460
+doğrudan
+
+50:38.460 --> 50:39.180
+eşittirin
+
+50:39.180 --> 50:40.080
+sağ tarafındaki
+
+50:40.080 --> 50:40.760
+ifadenin
+
+50:40.760 --> 50:41.280
+türünden
+
+50:41.280 --> 50:42.500
+yani
+
+50:42.500 --> 50:43.200
+derleyici
+
+50:43.200 --> 50:44.200
+böyle bir
+
+50:44.200 --> 50:44.760
+kod için
+
+50:44.760 --> 50:45.800
+hangi türden
+
+50:45.800 --> 50:46.260
+değişken
+
+50:46.260 --> 50:47.000
+oluşturuyor
+
+50:47.000 --> 50:48.540
+söyleyin
+
+50:48.540 --> 50:49.260
+arkadaşlar
+
+50:49.260 --> 50:51.000
+cevap
+
+50:51.000 --> 50:52.080
+data
+
+50:52.080 --> 50:52.680
+türünden
+
+50:52.680 --> 50:54.980
+bu ifadenin
+
+50:54.980 --> 50:55.160
+türü
+
+50:55.160 --> 50:55.460
+data
+
+50:55.460 --> 50:55.980
+değil mi
+
+50:55.980 --> 50:56.940
+evet
+
+50:56.940 --> 50:57.740
+şimdi
+
+50:57.740 --> 50:58.400
+buradaki
+
+50:58.400 --> 50:59.420
+benim
+
+50:59.420 --> 51:00.340
+cgo
+
+51:00.340 --> 51:00.840
+ismini
+
+51:00.840 --> 51:01.340
+verdiğim
+
+51:01.340 --> 51:01.920
+değişken
+
+51:01.920 --> 51:02.440
+data
+
+51:02.440 --> 51:02.900
+türünden
+
+51:02.900 --> 51:03.080
+bir
+
+51:03.080 --> 51:03.520
+değişken
+
+51:03.520 --> 51:03.940
+değil mi
+
+51:03.940 --> 51:05.760
+dolayısıyla
+
+51:05.760 --> 51:07.060
+eğer
+
+51:07.060 --> 51:07.620
+gerçekten
+
+51:07.620 --> 51:08.200
+böyle bir
+
+51:08.200 --> 51:08.420
+kod
+
+51:08.420 --> 51:09.240
+yazsaydım
+
+51:09.240 --> 51:11.200
+geri dönüş
+
+51:11.200 --> 51:11.820
+değeri olan
+
+51:11.820 --> 51:12.120
+data
+
+51:12.120 --> 51:12.940
+nesnesinin
+
+51:12.940 --> 51:13.260
+bir
+
+51:13.260 --> 51:14.040
+ası
+
+51:14.040 --> 51:15.160
+bir
+
+51:15.160 --> 51:15.900
+v'si
+
+51:15.900 --> 51:16.400
+bir de
+
+51:16.400 --> 51:16.860
+c'si
+
+51:16.860 --> 51:17.440
+olacaktı
+
+51:17.440 --> 51:17.880
+değil mi
+
+51:17.880 --> 51:18.960
+işte
+
+51:18.960 --> 51:19.460
+buradaki
+
+51:19.460 --> 51:20.280
+isimler
+
+51:20.280 --> 51:21.960
+fonksiyonun
+
+51:21.960 --> 51:23.040
+geri dönüş
+
+51:23.040 --> 51:23.860
+değeri olan
+
+51:23.860 --> 51:24.940
+data
+
+51:24.940 --> 51:25.820
+nesnesinin
+
+51:25.820 --> 51:26.980
+arkadaşlar
+
+51:26.980 --> 51:28.500
+elemanlarına
+
+51:28.500 --> 51:28.940
+eş
+
+51:28.940 --> 51:29.540
+isimler
+
+51:29.540 --> 51:30.440
+yani
+
+51:30.440 --> 51:31.000
+x'in
+
+51:31.000 --> 51:31.500
+kendisi
+
+51:31.500 --> 51:31.720
+bir
+
+51:31.720 --> 51:32.220
+değişken
+
+51:32.220 --> 51:32.660
+değil
+
+51:32.660 --> 51:34.260
+aslında
+
+51:34.260 --> 51:34.900
+x
+
+51:34.900 --> 51:35.780
+bu
+
+51:35.780 --> 51:36.540
+fonksiyonun
+
+51:36.540 --> 51:37.160
+geri dönüş
+
+51:37.160 --> 51:37.580
+değerini
+
+51:37.580 --> 51:38.020
+tutan
+
+51:38.020 --> 51:39.140
+değişkenin
+
+51:39.140 --> 51:40.180
+a
+
+51:40.180 --> 51:40.920
+elemanına
+
+51:40.920 --> 51:41.460
+verilen
+
+51:41.460 --> 51:41.840
+bir
+
+51:41.840 --> 51:42.140
+eş
+
+51:42.140 --> 51:42.500
+isim
+
+51:42.500 --> 51:43.220
+orasını
+
+51:43.220 --> 51:43.700
+derleyici
+
+51:43.700 --> 51:44.260
+hallediyor
+
+51:44.260 --> 51:45.500
+burayı
+
+51:45.500 --> 51:46.120
+anladık mı
+
+51:46.120 --> 51:47.840
+dolayısıyla
+
+51:47.840 --> 51:48.420
+siz böyle
+
+51:48.420 --> 51:48.620
+bir
+
+51:48.620 --> 51:48.820
+kod
+
+51:48.820 --> 51:49.780
+yazsanız da
+
+51:49.780 --> 51:50.300
+soru
+
+51:50.300 --> 51:50.580
+1
+
+51:50.580 --> 51:51.900
+data
+
+51:51.900 --> 51:52.600
+sınıfının
+
+51:52.600 --> 51:53.220
+copy
+
+51:53.220 --> 51:54.120
+konstruktörü
+
+51:54.120 --> 51:54.340
+ve
+
+51:54.340 --> 51:54.640
+move
+
+51:54.640 --> 51:55.360
+konstruktörü
+
+51:55.360 --> 51:56.080
+olsaydı
+
+51:56.080 --> 51:57.060
+data
+
+51:57.060 --> 51:57.720
+sınıfının
+
+51:57.720 --> 51:58.220
+move
+
+51:58.220 --> 51:58.940
+konstruktörü
+
+51:58.940 --> 51:59.620
+çağrılacak
+
+51:59.620 --> 52:00.100
+mıydı
+
+52:00.100 --> 52:01.420
+arkadaşlar
+
+52:01.420 --> 52:02.460
+cevap
+
+52:02.460 --> 52:03.580
+evet
+
+52:03.580 --> 52:04.900
+evet
+
+52:04.900 --> 52:07.160
+eğer başka
+
+52:07.160 --> 52:08.260
+daha uygun bir fonksiyon
+
+52:08.260 --> 52:08.620
+yoksa
+
+52:08.620 --> 52:09.640
+çağrılacaktı
+
+52:09.640 --> 52:11.000
+yine aynı şekilde
+
+52:11.000 --> 52:11.700
+bakın ben
+
+52:11.700 --> 52:13.260
+bu fonksiyonun
+
+52:13.260 --> 52:13.860
+geri dönüş
+
+52:13.860 --> 52:14.340
+değeri
+
+52:14.340 --> 52:15.600
+referans
+
+52:15.600 --> 52:16.920
+olsaydı
+
+52:16.920 --> 52:18.200
+mesela
+
+52:18.200 --> 52:20.340
+data
+
+52:20.340 --> 52:21.440
+x
+
+52:21.440 --> 52:23.220
+data
+
+52:23.220 --> 52:23.620
+ref
+
+52:23.620 --> 52:26.320
+ve
+
+52:26.320 --> 52:27.480
+x'i
+
+52:27.480 --> 52:29.560
+referans
+
+52:29.560 --> 52:30.180
+semantiliyle
+
+52:30.180 --> 52:31.080
+döndürseydim
+
+52:31.080 --> 52:32.940
+yerel
+
+52:32.940 --> 52:33.560
+nesneye
+
+52:33.560 --> 52:34.100
+referans
+
+52:34.100 --> 52:34.660
+döndüremem
+
+52:34.660 --> 52:35.380
+biliyorsunuz
+
+52:35.380 --> 52:37.360
+fonksiyonu
+
+52:37.360 --> 52:37.600
+şöyle
+
+52:37.600 --> 52:38.860
+çağırsaydım
+
+52:38.860 --> 52:42.780
+soru
+
+52:42.780 --> 52:44.820
+bu durumda
+
+52:44.820 --> 52:45.400
+x
+
+52:45.400 --> 52:45.760
+y
+
+52:45.760 --> 52:46.380
+ve z
+
+52:46.380 --> 52:48.340
+x'in
+
+52:48.340 --> 52:48.760
+y'nin
+
+52:48.760 --> 52:49.180
+z'nin
+
+52:49.180 --> 52:49.460
+türü
+
+52:49.460 --> 52:50.020
+referans
+
+52:50.020 --> 52:50.160
+mı
+
+52:50.160 --> 52:50.700
+değil mi
+
+52:50.700 --> 52:52.100
+soruyu
+
+52:52.100 --> 52:52.500
+anlamaya
+
+52:52.500 --> 52:52.960
+ve cevap
+
+52:52.960 --> 52:53.300
+vermeye
+
+52:53.300 --> 52:53.880
+çalışalım
+
+52:53.880 --> 52:58.680
+cevap
+
+52:58.680 --> 52:59.500
+referans
+
+52:59.500 --> 52:59.960
+değil
+
+52:59.960 --> 53:01.460
+bakın burası
+
+53:01.460 --> 53:02.020
+çok önemli
+
+53:02.020 --> 53:02.780
+en çok yanlış
+
+53:02.780 --> 53:03.680
+anlaşılan yer
+
+53:03.680 --> 53:04.660
+isterseniz
+
+53:04.660 --> 53:05.600
+bir test edelim
+
+53:05.600 --> 53:08.520
+necati nasıl
+
+53:08.520 --> 53:09.400
+test edeceğiz
+
+53:09.400 --> 53:10.280
+ya son derece
+
+53:10.280 --> 53:10.800
+basit
+
+53:10.800 --> 53:12.420
+eğer
+
+53:12.420 --> 53:12.920
+x
+
+53:12.920 --> 53:13.800
+intref
+
+53:13.800 --> 53:14.300
+olarak
+
+53:14.300 --> 53:17.160
+deklare
+
+53:17.160 --> 53:17.640
+edilmiş
+
+53:17.640 --> 53:18.400
+olsaydı
+
+53:18.400 --> 53:20.000
+o zaman
+
+53:20.000 --> 53:21.580
+is
+
+53:21.580 --> 53:23.160
+same
+
+53:23.160 --> 53:25.440
+using
+
+53:25.440 --> 53:26.600
+bildirimde yapalım
+
+53:26.600 --> 53:28.980
+ya da
+
+53:28.980 --> 53:29.300
+is
+
+53:29.300 --> 53:29.700
+bakın
+
+53:29.700 --> 53:30.300
+is
+
+53:30.300 --> 53:38.520
+is
+
+53:38.520 --> 53:39.040
+reference
+
+53:39.040 --> 53:39.660
+underscore
+
+53:39.660 --> 53:40.360
+v'nin
+
+53:40.360 --> 53:41.900
+decotype
+
+53:41.900 --> 53:44.580
+x
+
+53:44.580 --> 53:45.400
+açılımı
+
+53:45.400 --> 53:50.580
+see out
+
+53:50.580 --> 54:02.140
+gördünüz mü
+
+54:02.140 --> 54:02.640
+yanlış
+
+54:02.640 --> 54:03.480
+referans
+
+54:03.480 --> 54:03.920
+olsaydı
+
+54:03.920 --> 54:05.020
+doğru olacaktı
+
+54:05.020 --> 54:07.680
+değerleyici peki
+
+54:07.680 --> 54:08.300
+nasıl bir kod
+
+54:08.300 --> 54:08.760
+üretti
+
+54:08.760 --> 54:09.540
+yine aynı
+
+54:09.540 --> 54:09.900
+şekilde
+
+54:09.900 --> 54:10.440
+bakınız
+
+54:10.440 --> 54:11.140
+aslında
+
+54:11.140 --> 54:11.900
+referans
+
+54:11.900 --> 54:14.260
+yapı nesnesinin
+
+54:14.260 --> 54:15.080
+elemanlarına
+
+54:15.080 --> 54:15.480
+değil
+
+54:15.480 --> 54:16.760
+yapı nesnesinin
+
+54:16.760 --> 54:17.500
+kendisine
+
+54:17.500 --> 54:18.700
+yani
+
+54:18.700 --> 54:19.220
+derleyicinin
+
+54:19.220 --> 54:19.700
+ürettiği
+
+54:19.700 --> 54:19.980
+kod
+
+54:19.980 --> 54:20.660
+yine şöyle
+
+54:20.660 --> 54:21.660
+auto
+
+54:21.660 --> 54:23.740
+ref
+
+54:23.740 --> 54:24.620
+data
+
+54:24.620 --> 54:28.620
+eşittir
+
+54:28.620 --> 54:30.300
+arkadaşlar
+
+54:30.300 --> 54:33.200
+eşittir
+
+54:33.200 --> 54:34.080
+bu
+
+54:34.080 --> 54:37.080
+bu durumda
+
+54:37.080 --> 54:37.680
+derleyicinin
+
+54:37.680 --> 54:38.440
+oluşturduğu
+
+54:38.440 --> 54:39.000
+nesne
+
+54:39.000 --> 54:40.000
+arkadaşlar
+
+54:40.000 --> 54:41.900
+bir referans
+
+54:41.900 --> 54:41.920
+bir referans
+
+54:41.920 --> 54:42.960
+şimdi takip
+
+54:42.960 --> 54:43.940
+edebiliyor musunuz
+
+54:43.940 --> 54:45.120
+benim
+
+54:45.120 --> 54:45.760
+x'im
+
+54:45.760 --> 54:46.100
+y
+
+54:46.100 --> 54:46.860
+x y
+
+54:46.860 --> 54:47.320
+ve z
+
+54:47.320 --> 54:48.200
+değişkenim
+
+54:48.200 --> 54:50.180
+bu referansın
+
+54:50.180 --> 54:51.620
+elemanlarına
+
+54:51.620 --> 54:52.520
+yani referansın
+
+54:52.520 --> 54:53.300
+bağlandığı
+
+54:53.300 --> 54:54.240
+nesnenin
+
+54:54.240 --> 54:55.160
+elemanlarına
+
+54:55.160 --> 54:55.780
+eşitsin
+
+54:55.780 --> 54:56.300
+ama
+
+54:56.300 --> 54:57.220
+x'in y'nin
+
+54:57.220 --> 54:57.620
+z'nin
+
+54:57.620 --> 54:58.180
+kendisi
+
+54:58.180 --> 54:58.400
+ne
+
+54:58.400 --> 54:58.740
+değil
+
+54:58.740 --> 55:00.180
+referans
+
+55:00.180 --> 55:01.080
+değil
+
+55:01.080 --> 55:02.740
+şimdi
+
+55:02.740 --> 55:03.800
+structure
+
+55:03.800 --> 55:04.560
+bindingden
+
+55:04.560 --> 55:05.600
+faydalanabilmemiz
+
+55:05.600 --> 55:05.960
+için
+
+55:05.960 --> 55:07.220
+bu arada
+
+55:07.220 --> 55:07.840
+dilin
+
+55:07.840 --> 55:08.520
+standartları
+
+55:08.520 --> 55:08.780
+burada
+
+55:08.780 --> 55:09.680
+bazı kuralları
+
+55:09.680 --> 55:10.360
+değiştirdi
+
+55:10.360 --> 55:11.160
+c++
+
+55:11.160 --> 55:12.500
+20
+
+55:12.500 --> 55:13.720
+23
+
+55:13.720 --> 55:14.620
+ile
+
+55:14.620 --> 55:15.600
+ama
+
+55:15.600 --> 55:16.380
+ben önce
+
+55:16.380 --> 55:16.980
+değişmeyen
+
+55:16.980 --> 55:17.460
+kuralları
+
+55:17.460 --> 55:18.060
+söyleyeyim
+
+55:18.060 --> 55:19.060
+arkadaşlar
+
+55:19.060 --> 55:21.560
+bazı türler
+
+55:21.560 --> 55:22.560
+doğrudan
+
+55:22.560 --> 55:22.940
+core
+
+55:22.940 --> 55:23.440
+syntax
+
+55:23.440 --> 55:23.820
+olarak
+
+55:23.820 --> 55:25.200
+standardın
+
+55:25.200 --> 55:25.700
+kullandığı
+
+55:25.700 --> 55:25.980
+terim
+
+55:25.980 --> 55:26.340
+core
+
+55:26.340 --> 55:26.840
+syntax
+
+55:26.840 --> 55:28.000
+doğrudan
+
+55:28.000 --> 55:28.440
+structured
+
+55:28.440 --> 55:29.140
+binding'e
+
+55:29.140 --> 55:29.900
+destek veriyor
+
+55:29.900 --> 55:30.460
+bunlar
+
+55:30.460 --> 55:32.580
+olsa nesin
+
+55:32.580 --> 55:33.040
+hayır
+
+55:33.040 --> 55:33.600
+o şekilde
+
+55:33.600 --> 55:33.840
+bir
+
+55:33.840 --> 55:34.600
+syntax yok
+
+55:34.600 --> 55:36.140
+yani
+
+55:36.140 --> 55:37.020
+köşeli
+
+55:37.020 --> 55:37.720
+parantezinin
+
+55:37.720 --> 55:38.160
+içine
+
+55:38.160 --> 55:39.220
+referans
+
+55:39.220 --> 55:40.240
+deklaratörü
+
+55:40.240 --> 55:40.960
+pointer
+
+55:40.960 --> 55:41.740
+deklaratörü
+
+55:41.740 --> 55:42.160
+vesaire
+
+55:42.160 --> 55:42.980
+yazamazsınız
+
+55:42.980 --> 55:43.800
+köşeli
+
+55:43.800 --> 55:44.440
+parantezinin
+
+55:44.440 --> 55:44.680
+içine
+
+55:44.680 --> 55:45.080
+sadece
+
+55:45.080 --> 55:45.820
+ve sadece
+
+55:45.820 --> 55:46.980
+isimleri
+
+55:46.980 --> 55:47.860
+yazabilirsiniz
+
+55:47.860 --> 55:50.620
+tamam da
+
+55:50.620 --> 55:51.460
+oraya geleceğim
+
+55:51.460 --> 55:52.800
+ama
+
+55:52.800 --> 55:54.420
+şöyle
+
+55:54.420 --> 55:55.000
+olabilir
+
+55:55.000 --> 55:55.480
+auto
+
+55:55.480 --> 55:57.700
+şöyle
+
+55:57.700 --> 55:58.400
+olabilir
+
+55:58.400 --> 55:59.020
+const
+
+55:59.020 --> 55:59.440
+auto
+
+55:59.440 --> 56:01.140
+tabii
+
+56:01.140 --> 56:01.600
+structure
+
+56:01.600 --> 56:01.920
+binding
+
+56:01.920 --> 56:02.560
+bir ihtiyaç
+
+56:02.560 --> 56:03.180
+üzerine mi
+
+56:03.180 --> 56:03.460
+çıktı
+
+56:03.460 --> 56:03.900
+tabii
+
+56:03.900 --> 56:04.680
+kesinlikle
+
+56:04.680 --> 56:05.100
+zaten
+
+56:05.100 --> 56:06.480
+c++
+
+56:06.480 --> 56:07.120
+dışında
+
+56:07.120 --> 56:07.820
+onlarca
+
+56:07.820 --> 56:08.220
+dilde
+
+56:08.220 --> 56:09.160
+benzer
+
+56:09.160 --> 56:09.660
+syntax
+
+56:09.660 --> 56:10.120
+vardı
+
+56:10.120 --> 56:11.800
+bileşik bir
+
+56:11.800 --> 56:12.060
+türü
+
+56:12.060 --> 56:12.940
+elemanları
+
+56:12.940 --> 56:13.620
+ayrıştırmak
+
+56:13.620 --> 56:13.800
+için
+
+56:13.800 --> 56:14.140
+oraya
+
+56:14.140 --> 56:14.620
+geleceğim
+
+56:14.620 --> 56:15.140
+zaten
+
+56:15.140 --> 56:16.580
+birazdan
+
+56:16.580 --> 56:17.400
+vakit
+
+56:17.400 --> 56:18.000
+yeterse
+
+56:18.000 --> 56:19.240
+const
+
+56:19.240 --> 56:20.160
+niteleyicisini
+
+56:20.160 --> 56:21.200
+kullanabilirsiniz
+
+56:21.200 --> 56:22.000
+referans
+
+56:22.000 --> 56:22.940
+deklaratörünü
+
+56:22.940 --> 56:24.180
+ve yine
+
+56:24.180 --> 56:25.140
+universal
+
+56:25.140 --> 56:25.720
+referans
+
+56:25.720 --> 56:26.600
+deklaratörünü
+
+56:26.600 --> 56:28.200
+kullanabilirsiniz
+
+56:28.200 --> 56:29.780
+evet
+
+56:29.780 --> 56:31.120
+şimdi
+
+56:31.120 --> 56:34.840
+pod dediğimiz
+
+56:34.840 --> 56:36.320
+yapı türleri
+
+56:36.320 --> 56:36.800
+için
+
+56:36.800 --> 56:38.100
+doğrudan
+
+56:38.100 --> 56:39.260
+dil tarafından
+
+56:39.260 --> 56:40.080
+destek var
+
+56:40.080 --> 56:41.940
+yani örneğin
+
+56:41.940 --> 56:43.760
+data türünden
+
+56:43.760 --> 56:44.840
+mini esne oluşturayım
+
+56:44.840 --> 56:45.300
+data
+
+56:45.300 --> 56:46.380
+my data
+
+56:46.380 --> 56:48.100
+eşittir
+
+56:48.100 --> 56:49.260
+3
+
+56:49.260 --> 56:50.100
+6
+
+56:50.100 --> 56:51.020
+9
+
+56:51.020 --> 56:52.340
+bu
+
+56:52.340 --> 56:53.540
+doğrudan
+
+56:53.540 --> 56:54.020
+basit bir
+
+56:54.020 --> 56:55.220
+structure olduğu için
+
+56:55.220 --> 56:55.980
+structure
+
+56:55.980 --> 56:56.980
+binding'e
+
+56:56.980 --> 56:57.580
+doğrudan
+
+56:57.580 --> 56:58.220
+izin veriyor
+
+56:58.220 --> 56:58.700
+yani şunu
+
+56:58.700 --> 56:59.360
+yazabilirim
+
+56:59.360 --> 56:59.720
+auto
+
+56:59.720 --> 57:00.880
+x
+
+57:00.880 --> 57:01.700
+y
+
+57:01.700 --> 57:02.520
+z
+
+57:02.520 --> 57:04.300
+eşittir
+
+57:04.300 --> 57:05.140
+my data
+
+57:05.140 --> 57:06.280
+yani eşittir'in
+
+57:06.280 --> 57:07.020
+sağ tarafındaki
+
+57:07.020 --> 57:07.580
+ifade
+
+57:07.580 --> 57:08.960
+ya da
+
+57:08.960 --> 57:09.860
+küme parantezi
+
+57:09.860 --> 57:10.320
+içindeki
+
+57:10.320 --> 57:10.880
+ifade
+
+57:10.880 --> 57:11.760
+ne olmak
+
+57:11.760 --> 57:12.260
+zorunda
+
+57:12.260 --> 57:13.520
+arkadaşlar
+
+57:13.520 --> 57:15.000
+data
+
+57:15.000 --> 57:15.460
+türünden
+
+57:15.460 --> 57:15.840
+olmak
+
+57:15.840 --> 57:16.300
+zorunda
+
+57:16.300 --> 57:16.640
+bu da
+
+57:16.640 --> 57:17.020
+data'nın
+
+57:17.020 --> 57:17.660
+elemanları
+
+57:17.660 --> 57:19.260
+sayıda
+
+57:19.260 --> 57:20.340
+uyuşmazlık
+
+57:20.340 --> 57:21.040
+olursa
+
+57:21.040 --> 57:21.720
+syntax
+
+57:21.720 --> 57:22.280
+hatası
+
+57:22.280 --> 57:23.600
+mesela
+
+57:23.600 --> 57:24.060
+burada
+
+57:24.060 --> 57:25.140
+data'nın
+
+57:25.140 --> 57:25.600
+3 tane
+
+57:25.600 --> 57:26.060
+elemanı
+
+57:26.060 --> 57:26.480
+var ama
+
+57:26.480 --> 57:26.980
+2 tane
+
+57:26.980 --> 57:27.320
+isim
+
+57:27.320 --> 57:28.000
+kullandım
+
+57:28.000 --> 57:29.000
+dolayısıyla
+
+57:29.000 --> 57:29.640
+syntax
+
+57:29.640 --> 57:31.300
+aykırı
+
+57:31.300 --> 57:31.820
+arkadaşlar
+
+57:31.820 --> 57:33.480
+eğer
+
+57:33.480 --> 57:34.420
+gerçekten
+
+57:34.420 --> 57:35.780
+kullanmayacağınız
+
+57:35.780 --> 57:36.400
+değişken
+
+57:36.400 --> 57:36.860
+varsa
+
+57:36.860 --> 57:37.940
+yani bu
+
+57:37.940 --> 57:38.660
+ayrıştırma
+
+57:38.660 --> 57:39.320
+sonucunda
+
+57:39.320 --> 57:40.440
+o zaman
+
+57:40.440 --> 57:41.620
+onu
+
+57:41.620 --> 57:42.640
+kullanmayacağınızı
+
+57:42.640 --> 57:43.660
+göstermek için
+
+57:43.660 --> 57:44.680
+underscore
+
+57:44.680 --> 57:46.440
+kullanıyorsunuz
+
+57:46.440 --> 57:47.300
+tabi buradaki
+
+57:47.300 --> 57:47.860
+underscore
+
+57:47.860 --> 57:48.700
+mecburi değil
+
+57:48.700 --> 57:49.640
+yani ben buraya
+
+57:49.640 --> 57:51.320
+necati yazsaydım da
+
+57:51.320 --> 57:52.420
+bir syntax
+
+57:52.420 --> 57:52.820
+hatası
+
+57:52.820 --> 57:53.440
+olmayacaktı
+
+57:53.440 --> 57:54.040
+ama underscore
+
+57:54.040 --> 57:54.980
+kullanmak
+
+57:54.980 --> 57:55.940
+bir
+
+57:55.940 --> 57:57.020
+konvensiyon
+
+57:57.020 --> 57:58.120
+olmuş durumda
+
+57:58.120 --> 57:59.620
+ama
+
+57:59.620 --> 58:00.240
+burada da
+
+58:00.240 --> 58:00.940
+dikkat edin
+
+58:00.940 --> 58:02.720
+c++23'de
+
+58:02.720 --> 58:03.360
+bir değişiklik
+
+58:03.360 --> 58:03.700
+yapıldı
+
+58:03.700 --> 58:04.680
+ona değinmeyeceğim
+
+58:04.680 --> 58:05.780
+buradaki
+
+58:05.780 --> 58:06.240
+ismin
+
+58:06.240 --> 58:07.020
+skopu
+
+58:07.020 --> 58:07.880
+sanki
+
+58:07.880 --> 58:09.480
+değişkeni
+
+58:09.480 --> 58:09.860
+böyle
+
+58:09.860 --> 58:10.720
+bildirmişim
+
+58:10.720 --> 58:11.020
+gibi
+
+58:11.020 --> 58:12.540
+arkadaşlar
+
+58:12.540 --> 58:13.640
+bu
+
+58:13.640 --> 58:14.360
+structured
+
+58:14.360 --> 58:15.200
+bindingin
+
+58:15.200 --> 58:15.880
+kullanıldığı
+
+58:15.880 --> 58:16.340
+skop
+
+58:16.340 --> 58:17.400
+bu neden
+
+58:17.400 --> 58:17.940
+önemli
+
+58:17.940 --> 58:18.880
+örneğin
+
+58:18.880 --> 58:19.340
+şöyle bir
+
+58:19.340 --> 58:20.120
+kod yazsam
+
+58:20.120 --> 58:20.700
+auto
+
+58:20.700 --> 58:21.620
+ab
+
+58:21.620 --> 58:22.660
+underscore
+
+58:22.660 --> 58:24.160
+my data
+
+58:24.160 --> 58:25.080
+şimdi
+
+58:25.080 --> 58:25.560
+syntax
+
+58:25.560 --> 58:26.020
+hatası
+
+58:26.020 --> 58:26.540
+olacak
+
+58:26.540 --> 58:27.680
+ama
+
+58:27.680 --> 58:28.700
+tabi
+
+58:28.700 --> 58:29.400
+ben de
+
+58:29.400 --> 58:30.160
+onu söyleyecektim
+
+58:30.160 --> 58:30.620
+bakın burada
+
+58:30.620 --> 58:31.580
+syntax hatasının
+
+58:31.580 --> 58:32.120
+olmasının
+
+58:32.120 --> 58:33.200
+nedeni
+
+58:33.200 --> 58:34.020
+aynı ismi
+
+58:34.020 --> 58:34.840
+birden fazla
+
+58:34.840 --> 58:35.340
+varlığa
+
+58:35.340 --> 58:35.920
+vermemiz
+
+58:35.920 --> 58:36.920
+ama
+
+58:36.920 --> 58:37.480
+burada
+
+58:37.480 --> 58:38.820
+diyelim ki
+
+58:38.820 --> 58:39.140
+iki
+
+58:39.140 --> 58:39.700
+underscore
+
+58:39.700 --> 58:41.260
+kullanabilirim
+
+58:41.260 --> 58:42.060
+ama değişken
+
+58:42.060 --> 58:42.640
+sayısı
+
+58:42.640 --> 58:43.220
+uymak
+
+58:43.220 --> 58:43.700
+zorunda
+
+58:43.700 --> 58:45.460
+arkadaşlar
+
+58:45.460 --> 58:46.840
+izleyin
+
+58:46.840 --> 58:48.100
+eğer
+
+58:48.100 --> 58:48.760
+sınıfın
+
+58:48.760 --> 58:49.240
+private
+
+58:49.240 --> 58:50.040
+veri elemanı
+
+58:50.040 --> 58:50.900
+olsaydı
+
+58:50.900 --> 58:52.180
+doğrudan
+
+58:52.180 --> 58:53.100
+kullanamazdım
+
+58:53.100 --> 58:53.480
+onları
+
+58:53.480 --> 58:53.940
+structured
+
+58:53.940 --> 58:54.760
+bindingde
+
+58:54.760 --> 58:55.760
+ama
+
+58:55.760 --> 58:57.160
+burada da
+
+58:57.160 --> 58:58.340
+c++20 ile
+
+58:58.340 --> 58:59.040
+bir değişiklik
+
+58:59.040 --> 58:59.540
+yapıldı
+
+58:59.540 --> 59:00.820
+sınıfın
+
+59:00.820 --> 59:01.380
+kendi
+
+59:01.380 --> 59:01.720
+üye
+
+59:01.720 --> 59:02.660
+fonksiyonları
+
+59:02.660 --> 59:04.300
+ve sınıfa
+
+59:04.300 --> 59:04.720
+friend
+
+59:04.720 --> 59:05.680
+fonksiyonlar
+
+59:05.680 --> 59:06.820
+structured
+
+59:06.820 --> 59:07.660
+bindingde
+
+59:07.660 --> 59:08.560
+bunları
+
+59:08.560 --> 59:09.480
+kullanabiliyorlar
+
+59:09.480 --> 59:10.160
+yani şöyle bir
+
+59:10.160 --> 59:11.060
+sınıf olsaydı
+
+59:11.060 --> 59:11.720
+bu ilginç
+
+59:11.720 --> 59:12.820
+c++20 ile
+
+59:12.820 --> 59:13.320
+geldi bu
+
+59:13.320 --> 59:13.920
+değişiklik
+
+59:13.920 --> 59:14.700
+bakın
+
+59:14.700 --> 59:15.220
+class
+
+59:15.220 --> 59:15.980
+my class
+
+59:15.980 --> 59:20.880
+bunlar sınıfın
+
+59:20.880 --> 59:21.240
+private
+
+59:21.240 --> 59:22.320
+veri elemanı
+
+59:22.320 --> 59:23.640
+private
+
+59:23.640 --> 59:24.980
+ben hep
+
+59:24.980 --> 59:25.780
+örneklerde
+
+59:25.780 --> 59:26.320
+int türünü
+
+59:26.320 --> 59:26.860
+kullanıyorum
+
+59:26.860 --> 59:27.400
+ama tabi
+
+59:27.400 --> 59:27.900
+herhangi bir
+
+59:27.900 --> 59:28.460
+tür olabilir
+
+59:28.460 --> 59:29.660
+int
+
+59:29.660 --> 59:30.640
+x
+
+59:30.640 --> 59:32.520
+bu sefer
+
+59:32.520 --> 59:33.360
+değiştirelim
+
+59:33.360 --> 59:36.480
+int
+
+59:36.480 --> 59:37.040
+x
+
+59:37.040 --> 59:40.140
+kod yazmakta
+
+59:40.140 --> 59:40.860
+uğraşmamak için
+
+59:40.860 --> 59:41.280
+default
+
+59:41.280 --> 59:41.620
+member
+
+59:41.620 --> 59:42.240
+initializer
+
+59:42.240 --> 59:42.940
+kullanıyorum
+
+59:42.940 --> 59:44.140
+std
+
+59:44.140 --> 59:44.640
+string
+
+59:44.640 --> 59:48.140
+efendim
+
+59:48.140 --> 59:48.720
+s
+
+59:48.720 --> 59:51.260
+alian
+
+59:51.260 --> 59:55.100
+double
+
+59:55.100 --> 59:56.360
+deval
+
+59:56.360 --> 01:00:00.520
+13.35
+
+01:00:00.520 --> 01:00:01.460
+bakın
+
+01:00:01.460 --> 01:00:01.820
+şöyle
+
+01:00:01.820 --> 01:00:02.740
+diyebilir miyim
+
+01:00:02.740 --> 01:00:04.380
+auto
+
+01:00:04.380 --> 01:00:07.260
+arkadaşlar
+
+01:00:07.260 --> 01:00:08.940
+işte
+
+01:00:08.940 --> 01:00:10.120
+i
+
+01:00:10.120 --> 01:00:11.740
+std
+
+01:00:11.740 --> 01:00:13.060
+ve
+
+01:00:13.060 --> 01:00:14.260
+eval
+
+01:00:14.260 --> 01:00:15.300
+buna da
+
+01:00:15.300 --> 01:00:15.980
+diyelim
+
+01:00:15.980 --> 01:00:17.560
+arkadaşlar
+
+01:00:17.560 --> 01:00:18.260
+av
+
+01:00:18.260 --> 01:00:19.440
+belki bir
+
+01:00:19.440 --> 01:00:19.920
+ortalama
+
+01:00:19.920 --> 01:00:20.400
+diyelim
+
+01:00:20.400 --> 01:00:22.300
+eşittir
+
+01:00:22.300 --> 01:00:24.300
+burada da bir
+
+01:00:24.300 --> 01:00:24.820
+my class
+
+01:00:24.820 --> 01:00:25.660
+nesnesi olsun
+
+01:00:25.660 --> 01:00:26.360
+my class
+
+01:00:26.360 --> 01:00:26.620
+m
+
+01:00:26.620 --> 01:00:27.960
+eşittir
+
+01:00:27.960 --> 01:00:28.200
+m
+
+01:00:28.200 --> 01:00:30.820
+bunu yapabilmeniz
+
+01:00:30.820 --> 01:00:31.720
+için elemanların
+
+01:00:31.720 --> 01:00:32.580
+public olması
+
+01:00:32.580 --> 01:00:33.200
+gerekiyor
+
+01:00:33.200 --> 01:00:34.120
+yani
+
+01:00:34.120 --> 01:00:35.480
+erişime açık
+
+01:00:35.480 --> 01:00:36.320
+olması gerekiyor
+
+01:00:36.320 --> 01:00:37.300
+ama şimdi bakın
+
+01:00:37.300 --> 01:00:38.720
+buraya bir
+
+01:00:38.720 --> 01:00:39.420
+üye fonksiyon
+
+01:00:39.420 --> 01:00:39.900
+yazayım
+
+01:00:39.900 --> 01:00:41.040
+void
+
+01:00:41.040 --> 01:00:42.580
+u
+
+01:00:42.580 --> 01:00:48.220
+public
+
+01:00:48.220 --> 01:00:52.960
+view fonksiyonun
+
+01:00:52.960 --> 01:00:53.860
+içinde az önceki
+
+01:00:53.860 --> 01:00:54.100
+kodu
+
+01:00:54.100 --> 01:00:54.780
+kullanayım
+
+01:00:54.780 --> 01:01:04.040
+kodu
+
+01:01:04.040 --> 01:01:05.260
+arkadaşlar
+
+01:01:05.260 --> 01:01:13.200
+şu
+
+01:01:13.200 --> 01:01:13.720
+küme
+
+01:01:13.720 --> 01:01:14.300
+parantezi
+
+01:01:14.300 --> 01:01:14.720
+fazla
+
+01:01:14.720 --> 01:01:15.720
+değil mi
+
+01:01:15.720 --> 01:01:18.120
+bakın konunun
+
+01:01:18.120 --> 01:01:18.860
+legal olduğunu
+
+01:01:18.860 --> 01:01:20.120
+görüyorsunuz
+
+01:01:20.120 --> 01:01:21.800
+alian
+
+01:01:21.800 --> 01:01:22.200
+bosker
+
+01:01:22.200 --> 01:01:22.540
+diyor ki
+
+01:01:22.540 --> 01:01:23.280
+underspor'ı
+
+01:01:23.280 --> 01:01:24.020
+istediğimiz yere
+
+01:01:24.020 --> 01:01:24.820
+koyabilir miyiz
+
+01:01:24.820 --> 01:01:25.520
+tabii ki
+
+01:01:25.520 --> 01:01:26.320
+sonuçta o bir
+
+01:01:26.320 --> 01:01:26.820
+identif
+
+01:01:26.820 --> 01:01:27.140
+hayır
+
+01:01:27.140 --> 01:01:28.080
+yani
+
+01:01:28.080 --> 01:01:29.020
+benim verdiğim
+
+01:01:29.020 --> 01:01:29.340
+örnek
+
+01:01:29.340 --> 01:01:29.920
+basit olsun
+
+01:01:29.920 --> 01:01:30.400
+diye son
+
+01:01:30.400 --> 01:01:30.820
+öğe'ye
+
+01:01:30.820 --> 01:01:32.020
+kullanmayacağım
+
+01:01:32.020 --> 01:01:32.260
+dedim
+
+01:01:32.260 --> 01:01:32.800
+hangi öğe
+
+01:01:32.800 --> 01:01:33.200
+öğe'ye
+
+01:01:33.200 --> 01:01:33.660
+ya da öğeleri
+
+01:01:33.660 --> 01:01:34.680
+kullanmayacağınız
+
+01:01:34.680 --> 01:01:36.380
+sizi ilgilendirir
+
+01:01:36.380 --> 01:01:37.600
+burayı anladık
+
+01:01:37.600 --> 01:01:37.780
+değil mi
+
+01:01:37.780 --> 01:01:38.320
+bu eklenti
+
+01:01:38.320 --> 01:01:39.260
+C++20
+
+01:01:39.260 --> 01:01:40.060
+standardıyla
+
+01:01:40.060 --> 01:01:40.500
+geldi
+
+01:01:40.500 --> 01:01:41.700
+yani
+
+01:01:41.700 --> 01:01:42.780
+C++20'den
+
+01:01:42.780 --> 01:01:43.100
+önce
+
+01:01:43.100 --> 01:01:44.400
+bu yoktu
+
+01:01:44.400 --> 01:01:45.640
+benzer şekilde
+
+01:01:45.640 --> 01:01:46.280
+bakınız
+
+01:01:46.280 --> 01:01:48.200
+bu kez
+
+01:01:48.200 --> 01:01:48.960
+foo'yu
+
+01:01:48.960 --> 01:01:51.740
+bir
+
+01:01:51.740 --> 01:01:52.400
+pre-punction
+
+01:01:52.400 --> 01:01:53.060
+yaptım
+
+01:01:53.060 --> 01:01:54.720
+tabii
+
+01:01:54.720 --> 01:01:55.200
+sentaks
+
+01:01:55.200 --> 01:01:55.760
+hatası
+
+01:01:55.760 --> 01:01:56.600
+ama
+
+01:01:56.600 --> 01:01:57.280
+foo'ya
+
+01:01:57.280 --> 01:01:58.360
+friend
+
+01:01:58.360 --> 01:01:59.380
+bildirimiyle
+
+01:01:59.380 --> 01:02:01.620
+erişim hakkı
+
+01:02:01.620 --> 01:02:02.100
+verdim
+
+01:02:02.100 --> 01:02:03.700
+friend
+
+01:02:03.700 --> 01:02:06.300
+void
+
+01:02:06.300 --> 01:02:06.340
+void
+
+01:02:06.340 --> 01:02:07.880
+bu
+
+01:02:07.880 --> 01:02:10.640
+bu da
+
+01:02:10.640 --> 01:02:11.680
+friend olan
+
+01:02:11.680 --> 01:02:12.400
+fonksiyonun
+
+01:02:12.400 --> 01:02:12.840
+tanımı
+
+01:02:12.840 --> 01:02:13.660
+yine
+
+01:02:13.660 --> 01:02:15.080
+C++17'den
+
+01:02:15.080 --> 01:02:15.380
+önce
+
+01:02:15.380 --> 01:02:16.840
+bu sentaks
+
+01:02:16.840 --> 01:02:17.660
+hatasıydı
+
+01:02:17.660 --> 01:02:19.660
+C++20 ile
+
+01:02:19.660 --> 01:02:20.400
+legal hale
+
+01:02:20.400 --> 01:02:20.800
+geldi
+
+01:02:20.800 --> 01:02:22.000
+yani artık
+
+01:02:22.000 --> 01:02:22.840
+public olma
+
+01:02:22.840 --> 01:02:24.240
+zorunluluğu
+
+01:02:24.240 --> 01:02:24.920
+sadece
+
+01:02:24.920 --> 01:02:25.960
+sınıfın
+
+01:02:25.960 --> 01:02:26.460
+dışındaki
+
+01:02:26.460 --> 01:02:27.260
+kodlar için
+
+01:02:27.260 --> 01:02:28.320
+sınıfın
+
+01:02:28.320 --> 01:02:29.360
+kendi fonksiyonları
+
+01:02:29.360 --> 01:02:29.960
+ve sınıfa
+
+01:02:29.960 --> 01:02:31.220
+friend fonksiyonlar
+
+01:02:31.220 --> 01:02:32.240
+private
+
+01:02:32.240 --> 01:02:33.040
+öğeleri de
+
+01:02:33.040 --> 01:02:33.780
+structure
+
+01:02:33.780 --> 01:02:34.480
+bindingde
+
+01:02:34.480 --> 01:02:35.660
+kullanabiliyorlar
+
+01:02:35.660 --> 01:02:36.640
+yine
+
+01:02:36.640 --> 01:02:37.600
+C++20
+
+01:02:37.600 --> 01:02:38.380
+standartından
+
+01:02:38.380 --> 01:02:38.720
+önce
+
+01:02:38.720 --> 01:02:39.660
+çok tuhaf
+
+01:02:39.660 --> 01:02:41.260
+biraz da
+
+01:02:41.260 --> 01:02:42.080
+anlamsız
+
+01:02:42.080 --> 01:02:43.040
+bir sıkıntı
+
+01:02:43.040 --> 01:02:43.420
+vardı
+
+01:02:43.420 --> 01:02:44.120
+onu da bir
+
+01:02:44.120 --> 01:02:44.680
+göstermek
+
+01:02:44.680 --> 01:02:45.100
+istiyorum
+
+01:02:45.100 --> 01:02:46.820
+izleyin
+
+01:02:46.820 --> 01:02:48.120
+daha önceki
+
+01:02:48.120 --> 01:02:48.760
+örneklerden
+
+01:02:48.760 --> 01:02:49.160
+birine
+
+01:02:49.160 --> 01:02:49.520
+şu
+
+01:02:49.520 --> 01:02:50.200
+dat örneğine
+
+01:02:50.200 --> 01:02:50.760
+geçelim
+
+01:02:50.760 --> 01:02:54.540
+evet
+
+01:02:54.540 --> 01:03:09.460
+bakın şimdi
+
+01:03:09.460 --> 01:03:10.580
+auto
+
+01:03:10.580 --> 01:03:14.300
+xyz
+
+01:03:14.300 --> 01:03:18.080
+my data
+
+01:03:18.080 --> 01:03:21.160
+initialize
+
+01:03:21.160 --> 01:03:21.440
+eden
+
+01:03:21.440 --> 01:03:21.980
+ifadenin
+
+01:03:21.980 --> 01:03:22.300
+ne olduğu
+
+01:03:22.300 --> 01:03:22.480
+ile
+
+01:03:22.480 --> 01:03:23.040
+iti yok
+
+01:03:23.040 --> 01:03:23.820
+çoğunlukla
+
+01:03:23.820 --> 01:03:24.900
+fonksiyon
+
+01:03:24.900 --> 01:03:25.520
+çağrılarında
+
+01:03:25.520 --> 01:03:26.120
+kullanıyoruz
+
+01:03:26.120 --> 01:03:26.640
+ama onunla
+
+01:03:26.640 --> 01:03:27.040
+sınırlı
+
+01:03:27.040 --> 01:03:27.280
+değil
+
+01:03:27.280 --> 01:03:27.580
+tabii
+
+01:03:27.580 --> 01:03:28.920
+şimdi
+
+01:03:28.920 --> 01:03:29.160
+bir
+
+01:03:29.160 --> 01:03:29.420
+lambda
+
+01:03:29.420 --> 01:03:30.040
+ifadesi
+
+01:03:30.040 --> 01:03:30.520
+yazıyorum
+
+01:03:30.520 --> 01:03:31.940
+auto
+
+01:03:31.940 --> 01:03:34.040
+f
+
+01:03:34.040 --> 01:03:36.020
+eşittir
+
+01:03:36.020 --> 01:03:39.840
+capture
+
+01:03:39.840 --> 01:03:41.020
+x
+
+01:03:41.020 --> 01:03:43.620
+int
+
+01:03:43.620 --> 01:03:44.520
+e
+
+01:03:44.520 --> 01:03:46.940
+return
+
+01:03:46.940 --> 01:03:48.880
+i
+
+01:03:48.880 --> 01:03:49.280
+çarpı
+
+01:03:49.280 --> 01:03:49.600
+x
+
+01:03:49.600 --> 01:03:53.900
+c++17
+
+01:03:53.900 --> 01:03:54.260
+bu
+
+01:03:54.260 --> 01:03:55.180
+syntax hatası
+
+01:03:55.180 --> 01:03:57.960
+c++20
+
+01:03:57.960 --> 01:03:58.820
+ile düzelttiler
+
+01:03:58.820 --> 01:03:59.640
+yani
+
+01:03:59.640 --> 01:04:00.140
+structure
+
+01:04:00.140 --> 01:04:00.600
+binding
+
+01:04:00.600 --> 01:04:03.020
+bu isimleri
+
+01:04:03.020 --> 01:04:04.260
+capture
+
+01:04:04.260 --> 01:04:05.100
+edemiyordunuz
+
+01:04:05.100 --> 01:04:05.680
+lambda
+
+01:04:05.680 --> 01:04:06.560
+ifadelerinde
+
+01:04:06.560 --> 01:04:10.740
+ama
+
+01:04:10.740 --> 01:04:11.660
+c++20
+
+01:04:11.660 --> 01:04:12.520
+standartıyla
+
+01:04:12.520 --> 01:04:13.560
+buna izin
+
+01:04:13.560 --> 01:04:14.320
+verildi
+
+01:04:14.520 --> 01:04:16.900
+iki
+
+01:04:16.900 --> 01:04:17.780
+doğrudan
+
+01:04:17.780 --> 01:04:18.780
+kullanabileceğimiz
+
+01:04:18.780 --> 01:04:19.520
+ikinci yer
+
+01:04:19.520 --> 01:04:20.640
+biziler
+
+01:04:20.640 --> 01:04:23.680
+biziler de
+
+01:04:23.680 --> 01:04:24.180
+doğrudan
+
+01:04:24.180 --> 01:04:24.460
+core
+
+01:04:24.460 --> 01:04:24.900
+syntax
+
+01:04:24.900 --> 01:04:25.560
+düzeyinde
+
+01:04:25.560 --> 01:04:26.120
+structure
+
+01:04:26.120 --> 01:04:27.180
+binding'e
+
+01:04:27.180 --> 01:04:28.020
+destek veriyor
+
+01:04:28.020 --> 01:04:29.700
+int
+
+01:04:29.700 --> 01:04:30.480
+are
+
+01:04:30.480 --> 01:04:32.480
+ya da
+
+01:04:32.480 --> 01:04:34.080
+string
+
+01:04:34.080 --> 01:04:37.280
+are
+
+01:04:37.280 --> 01:04:43.600
+eşittir
+
+01:04:43.600 --> 01:04:46.480
+ali
+
+01:04:46.480 --> 01:04:51.480
+can
+
+01:04:51.480 --> 01:04:54.040
+nur
+
+01:04:54.040 --> 01:05:00.700
+bakın
+
+01:05:00.700 --> 01:05:01.300
+auto
+
+01:05:01.300 --> 01:05:04.860
+s1
+
+01:05:04.860 --> 01:05:05.700
+s2
+
+01:05:05.700 --> 01:05:06.700
+s3
+
+01:05:06.700 --> 01:05:10.360
+eşittir
+
+01:05:10.360 --> 01:05:11.220
+are
+
+01:05:11.220 --> 01:05:14.880
+bunun için özel bir koşul yok
+
+01:05:14.880 --> 01:05:16.520
+dizler de oradan destek veriyor
+
+01:05:16.520 --> 01:05:17.480
+yine aynı şekilde
+
+01:05:17.480 --> 01:05:18.480
+dizinin
+
+01:05:18.480 --> 01:05:19.360
+dizinin
+
+01:05:19.360 --> 01:05:20.800
+eleman sayısıyla
+
+01:05:20.800 --> 01:05:25.400
+structure binding'de kullandığınız isim sayısı
+
+01:05:25.400 --> 01:05:26.920
+aynı olmak zorunda
+
+01:05:26.920 --> 01:05:29.300
+bu özellikle
+
+01:05:29.300 --> 01:05:34.080
+fonksiyonların dizi döndürmesinde de işimizi kolaylaştırıyor
+
+01:05:34.080 --> 01:05:35.080
+mesela
+
+01:05:35.080 --> 01:05:35.680
+bakınız
+
+01:05:35.680 --> 01:05:40.580
+int
+
+01:05:40.580 --> 01:05:42.360
+a3
+
+01:05:42.360 --> 01:05:43.740
+ya da int
+
+01:05:43.740 --> 01:05:43.760
+ya da int
+
+01:05:43.760 --> 01:05:44.240
+a3
+
+01:05:44.240 --> 01:05:47.800
+köşeli parantezin içinde
+
+01:05:47.800 --> 01:05:49.740
+bir using bildirimi yapayım
+
+01:05:49.740 --> 01:05:51.940
+using
+
+01:05:51.940 --> 01:05:52.740
+int
+
+01:05:52.740 --> 01:05:53.480
+a3
+
+01:05:53.480 --> 01:05:57.440
+şimdi
+
+01:05:57.440 --> 01:06:01.640
+bu fonksiyonu
+
+01:06:01.640 --> 01:06:04.080
+arkadaşlar
+
+01:06:04.080 --> 01:06:05.260
+int
+
+01:06:05.260 --> 01:06:06.860
+a3
+
+01:06:06.860 --> 01:06:07.860
+türüne
+
+01:06:07.860 --> 01:06:09.540
+referans döndürsün
+
+01:06:09.540 --> 01:06:14.600
+ve ben de
+
+01:06:14.600 --> 01:06:17.740
+bu fonksiyonuna bir çağrı yapmış olayım
+
+01:06:17.740 --> 01:06:20.500
+fakat
+
+01:06:20.500 --> 01:06:22.200
+fon'un geri dönüş değeri olan
+
+01:06:22.200 --> 01:06:25.840
+referans semantiğiyle döndürdüğü
+
+01:06:25.840 --> 01:06:26.700
+3 elemanın int
+
+01:06:26.700 --> 01:06:27.120
+dizinin
+
+01:06:27.120 --> 01:06:29.280
+elemanlarının değerlerini
+
+01:06:29.280 --> 01:06:31.020
+değişkenlerde tutmak isteyeyim
+
+01:06:31.020 --> 01:06:34.020
+o zaman doğrudan şöyle yazabilirim
+
+01:06:34.020 --> 01:06:35.120
+mesela
+
+01:06:35.120 --> 01:06:36.660
+auto
+
+01:06:36.660 --> 01:06:41.640
+a1
+
+01:06:41.640 --> 01:06:42.660
+a2
+
+01:06:42.660 --> 01:06:43.860
+a3
+
+01:06:43.860 --> 01:06:46.300
+eşittir
+
+01:06:46.300 --> 01:06:46.940
+bu
+
+01:06:46.940 --> 01:06:51.960
+ya da yerel bir dizi
+
+01:06:51.960 --> 01:06:54.580
+statik ömürlü bir dizi de olabilirdi
+
+01:06:54.580 --> 01:06:55.820
+int a
+
+01:06:55.820 --> 01:07:00.240
+arkadaşlar mesela
+
+01:07:00.240 --> 01:07:01.820
+kullanıldığı
+
+01:07:01.820 --> 01:07:03.600
+yerlerden
+
+01:07:03.600 --> 01:07:04.980
+bir tanesi
+
+01:07:04.980 --> 01:07:06.500
+ifade
+
+01:07:06.500 --> 01:07:07.500
+emirhan çelik
+
+01:07:07.500 --> 01:07:09.200
+ifadenin sağ tarafı
+
+01:07:09.200 --> 01:07:10.820
+referans refer olabilir mi
+
+01:07:10.820 --> 01:07:11.720
+hayır
+
+01:07:11.720 --> 01:07:16.140
+tam da o konuları konuşacaktık
+
+01:07:16.140 --> 01:07:17.240
+ama vaktimiz de bitti
+
+01:07:17.240 --> 01:07:18.940
+şöyle söyleyelim
+
+01:07:18.940 --> 01:07:20.860
+bir derste biraz da yenmiştim
+
+01:07:20.860 --> 01:07:22.940
+diziler
+
+01:07:22.940 --> 01:07:24.040
+ve
+
+01:07:24.040 --> 01:07:25.780
+yapı türleri için
+
+01:07:25.780 --> 01:07:26.620
+yani
+
+01:07:26.620 --> 01:07:28.520
+basit sınıf olarak
+
+01:07:28.520 --> 01:07:30.200
+tanınanan yapı türleri için
+
+01:07:30.200 --> 01:07:31.480
+doğrudan destek var
+
+01:07:31.480 --> 01:07:32.980
+ama
+
+01:07:32.980 --> 01:07:34.880
+diğer sınıflar için
+
+01:07:34.880 --> 01:07:36.740
+geçerli olması
+
+01:07:36.740 --> 01:07:38.020
+structured binding
+
+01:07:38.020 --> 01:07:38.940
+syntaxının
+
+01:07:38.940 --> 01:07:40.460
+couple
+
+01:07:40.460 --> 01:07:41.480
+interfejisini
+
+01:07:41.480 --> 01:07:43.740
+implement etmesine bağlı
+
+01:07:43.740 --> 01:07:44.880
+yani
+
+01:07:44.880 --> 01:07:45.840
+ilgili tür
+
+01:07:45.840 --> 01:07:47.640
+ister standart
+
+01:07:47.640 --> 01:07:48.820
+kütüphanenin türü olsun
+
+01:07:48.820 --> 01:07:49.260
+ister
+
+01:07:49.260 --> 01:07:50.080
+üçüncü parti
+
+01:07:50.080 --> 01:07:51.540
+bir tür
+
+01:07:51.540 --> 01:07:52.660
+bir type olsun
+
+01:07:52.660 --> 01:07:53.500
+arkadaşlar
+
+01:07:53.500 --> 01:07:54.200
+arkadaşlar
+
+01:07:54.200 --> 01:07:55.240
+eğer
+
+01:07:55.240 --> 01:07:56.540
+tuple size
+
+01:07:56.540 --> 01:07:57.760
+amplitude'ini
+
+01:07:57.760 --> 01:07:59.920
+özelleştirmişse
+
+01:07:59.920 --> 01:08:01.760
+yine aynı şekilde
+
+01:08:01.760 --> 01:08:03.560
+tuple elementi
+
+01:08:03.560 --> 01:08:05.700
+özelleştirmişse
+
+01:08:05.700 --> 01:08:06.940
+yani bunun için
+
+01:08:06.940 --> 01:08:08.480
+specialization
+
+01:08:08.480 --> 01:08:09.280
+oluşturmuşsa
+
+01:08:09.280 --> 01:08:10.840
+partial specialization
+
+01:08:10.840 --> 01:08:11.300
+ya da
+
+01:08:11.300 --> 01:08:12.400
+full specialization
+
+01:08:12.400 --> 01:08:15.300
+ve her bir eleman için
+
+01:08:15.300 --> 01:08:18.400
+size t parametreli
+
+01:08:18.400 --> 01:08:19.660
+index fonksiyonunu
+
+01:08:19.660 --> 01:08:20.440
+yazmışsa
+
+01:08:20.440 --> 01:08:22.020
+o tür
+
+01:08:22.020 --> 01:08:23.460
+structured binding'i
+
+01:08:23.460 --> 01:08:24.180
+destekliyor
+
+01:08:24.180 --> 01:08:25.800
+yani derleyicinin
+
+01:08:25.800 --> 01:08:26.540
+ürettiği kod
+
+01:08:26.540 --> 01:08:26.980
+aslında
+
+01:08:26.980 --> 01:08:28.100
+eğer
+
+01:08:28.100 --> 01:08:29.620
+dizi ya da
+
+01:08:29.620 --> 01:08:30.400
+o structure
+
+01:08:30.400 --> 01:08:31.200
+değilse
+
+01:08:31.200 --> 01:08:32.460
+derleyicinin
+
+01:08:32.460 --> 01:08:33.360
+ürettiği kod
+
+01:08:33.360 --> 01:08:34.520
+tuple size'ı
+
+01:08:34.520 --> 01:08:35.760
+tuple elementi
+
+01:08:35.760 --> 01:08:37.100
+ve get fonksiyonunu
+
+01:08:37.100 --> 01:08:37.720
+kullanıyor
+
+01:08:37.720 --> 01:08:39.220
+dolayısıyla
+
+01:08:39.220 --> 01:08:40.220
+o
+
+01:08:40.220 --> 01:08:41.280
+interfeysi
+
+01:08:41.280 --> 01:08:42.200
+implemente eden
+
+01:08:42.200 --> 01:08:42.560
+yani
+
+01:08:42.560 --> 01:08:44.860
+tuple size
+
+01:08:44.860 --> 01:08:45.820
+tuple element
+
+01:08:45.820 --> 01:08:47.160
+ve get fonksiyonları
+
+01:08:47.160 --> 01:08:49.840
+kendi türlerinizin de
+
+01:08:49.840 --> 01:08:51.260
+structured binding'den
+
+01:08:51.260 --> 01:08:52.080
+faydalanmasını
+
+01:08:52.080 --> 01:08:52.900
+sağlayabilirsiniz
+
+01:08:52.900 --> 01:08:53.220
+işte
+
+01:08:53.220 --> 01:08:54.740
+standart kütüphanemizde
+
+01:08:54.740 --> 01:08:56.340
+bu
+
+01:08:56.340 --> 01:08:56.820
+tuple
+
+01:08:56.820 --> 01:08:57.920
+interfeysine
+
+01:08:57.920 --> 01:08:59.060
+implemente eden
+
+01:08:59.060 --> 01:08:59.700
+türler
+
+01:08:59.700 --> 01:09:00.660
+arkadaşlar
+
+01:09:00.660 --> 01:09:01.500
+stud array
+
+01:09:01.500 --> 01:09:04.000
+stud pair
+
+01:09:04.000 --> 01:09:06.700
+ve stud tuple
+
+01:09:06.700 --> 01:09:10.680
+dahil
+
+01:09:10.680 --> 01:09:12.560
+buraya kadar
+
+01:09:12.560 --> 01:09:13.900
+takip edebildik mi
+
+01:09:13.900 --> 01:09:14.760
+evet
+
+01:09:14.760 --> 01:09:16.220
+yani örneğin
+
+01:09:16.220 --> 01:09:18.960
+pair'in
+
+01:09:18.960 --> 01:09:22.240
+int
+
+01:09:22.240 --> 01:09:23.900
+string açılımı
+
+01:09:23.900 --> 01:09:27.260
+arkadaşlar
+
+01:09:27.260 --> 01:09:28.060
+is
+
+01:09:28.060 --> 01:09:29.020
+isp
+
+01:09:29.020 --> 01:09:30.800
+bla bla bla
+
+01:09:30.800 --> 01:09:32.540
+şöyle yazabilirim
+
+01:09:32.540 --> 01:09:32.960
+auto
+
+01:09:32.960 --> 01:09:35.980
+h
+
+01:09:35.980 --> 01:09:37.440
+name
+
+01:09:37.440 --> 01:09:39.880
+eşittir
+
+01:09:39.880 --> 01:09:40.880
+isp
+
+01:09:40.880 --> 01:09:41.740
+ama bunun level
+
+01:09:41.740 --> 01:09:43.260
+olmasının nedeni
+
+01:09:43.260 --> 01:09:45.180
+isterseniz deneyin
+
+01:09:45.180 --> 01:09:47.720
+tuple elementin
+
+01:09:47.720 --> 01:09:48.620
+pair'in
+
+01:09:48.620 --> 01:09:49.700
+bu açılımı
+
+01:09:49.700 --> 01:09:51.120
+specialization'ının
+
+01:09:51.120 --> 01:09:52.020
+var olması
+
+01:09:52.020 --> 01:09:52.860
+aynı şey
+
+01:09:52.860 --> 01:09:54.120
+tuple size
+
+01:09:54.120 --> 01:09:55.300
+ve get fonksiyonları
+
+01:09:55.300 --> 01:09:56.240
+içinde geçerli
+
+01:09:56.240 --> 01:09:57.940
+aynı durum
+
+01:09:57.940 --> 01:09:58.720
+tuple'da da
+
+01:09:58.720 --> 01:09:59.360
+söz konusu
+
+01:09:59.360 --> 01:10:00.900
+peki
+
+01:10:00.900 --> 01:10:01.680
+kaldığımız yeri
+
+01:10:01.680 --> 01:10:02.440
+işaretledik
+
+01:10:02.440 --> 01:10:02.840
+bir dakika
+
+01:10:02.840 --> 01:10:03.960
+hafta devam edeceğiz
+
+01:10:03.960 --> 01:10:06.160
+bugün biraz problemli oldu
+
+01:10:06.160 --> 01:10:07.080
+elektrik kesintisi
+
+01:10:07.080 --> 01:10:07.820
+nedeniyle
+
+01:10:07.820 --> 01:10:09.040
+bir dahaki hafta
+
+01:10:09.040 --> 01:10:09.840
+görüşmek üzere
+
+01:10:09.840 --> 01:10:10.640
+herkese
+
+01:10:10.640 --> 01:10:12.200
+iyi akşamlar
+
+01:10:12.200 --> 01:10:12.700
+diliyorum
+
+01:10:12.700 --> 01:10:13.520
+hoşçakalın
+
+01:10:13.520 --> 01:10:14.140
+değerli arkadaşlar
+
+01:10:14.140 --> 01:10:15.880
+iyi akşamlar
+
+01:10:15.880 --> 01:10:16.380
+haber
+
+01:10:16.380 --> 01:10:17.640
+abone ol
+
+01:10:19.640 --> 01:10:22.240
+aí
+
+01:10:26.380 --> 01:10:26.660
+abone ol
+
+01:10:26.660 --> 01:10:27.500
+abone ol
+
+01:10:27.500 --> 01:10:29.300
+abone ol
+
+01:10:29.300 --> 01:10:29.920
+abone ol
+
+01:10:29.920 --> 01:10:31.620
+abone ol
+
+01:10:31.620 --> 01:10:31.920
+abone ol
+
+01:10:31.920 --> 01:10:32.540
+abone ol
+
+01:10:32.540 --> 01:10:34.160
+abone ol
+
+01:10:34.160 --> 01:10:34.720
+abone ol
+
+01:10:34.720 --> 01:10:34.980
+abone ol
+
+01:10:34.980 --> 01:10:35.680
+abone ol
+
+01:10:35.680 --> 01:10:35.700
+abone ol
+
+01:10:35.700 --> 01:10:36.720
+abone ol
+
+01:10:36.720 --> 01:10:36.900
+abone ol
+
+01:10:36.900 --> 01:10:37.120
+abone ol
+
+01:10:37.120 --> 01:10:37.860
+abone ol
+
+01:10:37.860 --> 01:10:38.120
+abone ol
+
+01:10:38.120 --> 01:10:38.540
+abone ol
+
+01:10:38.540 --> 01:10:39.400
+abone ol
+
+01:10:39.400 --> 01:10:39.540
+abone ol
+
+01:10:39.540 --> 01:10:39.800
+abone ol
+
+01:10:39.800 --> 01:10:40.100
+abone ol
+
+01:10:40.100 --> 01:10:40.820
+abone ol
+
+01:10:40.820 --> 01:10:41.760
+abone ol
+
